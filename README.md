@@ -1,7 +1,5 @@
 # PSoC® 6 Middleware
 
-### About PSoC 6 Middleware
-
 Each library is delivered in its own repository, complete with documentation. Both Cypress and third-party middleware is available. The information below includes links to each repository, and various resources associated with each library. Go to each repository to see what releases are available for that library. 
 
 In addition to the individual code example links in the table, Cypress provides a [comprehensive set of code examples](https://github.com/cypresssemiconductorco/Code-Examples-for-ModusToolbox-Software) covering most if not all functionality in the provided middleware.
