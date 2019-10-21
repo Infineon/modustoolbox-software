@@ -57,22 +57,17 @@ The BSP is a central feature of ModusToolbox enablement software. The BSP specif
 | [TARGET_CY8CKIT-062-BLE](https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE) | [PSoC 6 BLE Pioneer Kit](http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit) |
 | [TARGET_CY8CKIT-062-WIFI-BT](https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT) | [PSoC 6 WiFi-BT Pioneer Kit](http://www.cypress.com/CY8CKIT-062S2-4343W) |
 | [TARGET_CY8CKIT-062S2-43012](https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S2-43012) | [PSoC   62S2 Wi-Fi BT Pioneer Kit](https://www.cypress.com/CY8CKIT-062S2-43012) |
-| [TARGET_CY8CKIT-062S2-4343W](https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S2-4343W) |                                                              |
-| [TARGET_CY8CKIT-064S2-4343W](https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S2-4343W) |                                                              |
 | [TARGET_CY8CPROTO-062-4343W](https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W) | [PSoC   6 Wi-Fi BT Prototyping Kit](https://www.cypress.com/CY8CPROTO-062-4343W) |
 | [TARGET_CY8CPROTO-062S3-4343W](https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W) |                                                              |
 | [TARGET_CY8CPROTO-063-BLE](https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE) | [PSoC 6 BLE Prototyping Ki](http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit)t |
-| [TARGET_CY8CPROTO-064-SB](https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064-SB) |                                                              |
 | [TARGET_CYBT-213043-EVAL](https://github.com/cypresssemiconductorco/TARGET_CYBT-213043-EVAL) | [EZ-BT™   Module Arduino Evaluation Board](https://www.cypress.com/documentation/development-kitsboards/cybt-213043-eval-ez-bt-module-arduino-evaluation-board) |
 | [TARGET_CYBT-213043-MESH](https://github.com/cypresssemiconductorco/TARGET_CYBT-213043-MESH) | [EZ-BT™   Module Mesh Evaluation Kit](https://www.cypress.com/documentation/development-kitsboards/cybt-213043-mesh-ez-bt-module-mesh-evaluation-kit) |
 | [TARGET_CYW9P62S1-43012EVB-01](https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43012EVB-01) |                                                              |
-| [TARGET_CYW9P62S1-43438EVB-01](https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43438EVB-01) |                                                              |
 | [TARGET_CYW920719B2Q40EVB-01](https://github.com/cypresssemiconductorco/TARGET_CYW920719B2Q40EVB-01) | [CYW920719Q40EVB-01   Evaluation Kit](https://www.cypress.com/documentation/development-kitsboards/cyw920719q40evb-01-evaluation-kit) |
 | [TARGET_CYW920721B2EVK-01](https://github.com/cypresssemiconductorco/TARGET_CYW920721B2EVK-01) | [BLE   & Bluetooth Products page](https://www.cypress.com/products/ble-bluetooth) |
 | [TARGET_CYW920721B2EVK-03](https://github.com/cypresssemiconductorco/TARGET_CYW920721B2EVK-03) | [BLE   & Bluetooth Products page](https://www.cypress.com/products/ble-bluetooth) |
 | [TARGET_CYW920819EVB-02](https://github.com/cypresssemiconductorco/TARGET_CYW920819EVB-02) | [CYW920819EVB-02   Evaluation Kit](http://www.cypress.com/CYW920819EVB-02) |
 | [TARGET_CYW920820EVB-02](https://github.com/cypresssemiconductorco/TARGET_CYW920820EVB-02) | [CYW920820EVB-02   Evaluation Kit](http://www.cypress.com/CYW920820EVB-02) |
-| [TARGET_CYW943012P6EVB-01](https://github.com/cypresssemiconductorco/TARGET_CYW943012P6EVB-01) |                                                              |
 | [TARGET_CYW989820EVB-01](https://github.com/cypresssemiconductorco/TARGET_CYW989820EVB-01) | [Automotive   Wireless Products Page](https://www.cypress.com/products/automotive-wireless) |
 
 ------
