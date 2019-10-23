@@ -3,7 +3,7 @@
 As a developer, you have preferred tools and workflows for creating products. What you need is enablement software you can use seamlessly in your existing environment. This document lists and describes what's available to you. ModusToolbox software is:
 
 - Comprehensive – it has the resources you need
-- Flexible – you can use the resource in your own workflow
+- Flexible – you can use the resources in your own workflow
 - Atomic – you can get just the resources you want
 
 ModusToolbox software encompasses a variety of software resources, organized in this document into:
@@ -14,7 +14,7 @@ ModusToolbox software encompasses a variety of software resources, organized in 
 
 [Middleware](#middleware)
 
-See the ModusToolbox Software Overview document (link TBD) to understand how all this works. Some libraries are intended for development in a particular ecosystem, like Mbed OS.
+See the [ModusToolbox Software Overview](https://www.cypress.com/ModusToolboxSWOverview) document to understand how all this works. Some libraries are intended for development in a particular ecosystem, like Mbed OS.
 
 Each library is delivered in its own repository, complete with documentation. Both Cypress and third-party middleware is available. The information below includes links to each repository, and various resources associated with each library. Go to each repository to see what releases are available for that library. 
 
@@ -26,7 +26,7 @@ You do not need to clone or download anything. Each repository is available shou
 
 ## Low-Level Resources
 
-BSPs include the low-level resources required for a particular kit.
+BSPs include the low-level resources required for a particular kit. If you build a starter application using either the ModusToolbox IDE or the stand-alone Project Creator tool, you do not need to download or clone these repositories separately. They are included automatically by the build infrastructure.
 
 | Item                                                         | Details                                                      | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -96,7 +96,7 @@ The Bluetooth SDK repositories are not yet public, so the link to these repos wi
 | [btsdk-peer-apps-mesh](https://github.com/cypresssemiconductorco/btsdk-peer-apps-mesh) |                                                              |                                                              |
 | [btsdk-peer-apps-ota](https://github.com/cypresssemiconductorco/btsdk-peer-apps-ota) |                                                              |                                                              |
 | [aws-iot](https://github.com/cypresssemiconductorco/aws-iot) | Provides secure, bi-directional communication between Internet-connected devices such as sensors, actuators, embedded micro-controllers, or smart appliances and the AWS Cloud. Supports MQTT and HTTP protocols. | [Developer   Guide](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) |
-| [enterprise-security](https://github.com/cypresssemiconductorco/enterprise-security) | This library implements a collection of the most commonly used   Extensible Authentication Protocols (EAP) used in enterprise WiFi networks | [API   Reference](https://github.com/cypresssemiconductorco/enterprise-security/blob/master/docs/api_reference_manual.html) |
+| [enterprise-security](https://github.com/cypresssemiconductorco/enterprise-security) | This library implements a collection of the most commonly used   Extensible Authentication Protocols (EAP) used in enterprise WiFi networks | [API   Reference](https://cypresssemiconductorco.github.io/enterprise-security/api_reference_manual/html/index.html) |
 | [http-server](https://github.com/cypresssemiconductorco/http-server) | Provides communication functions for an HTTP server.         | [ReadMe](https://github.com/cypresssemiconductorco/http-server/blob/master/README.md) |
 | [connectivity-utilities](https://github.com/cypresssemiconductorco/connectivity-utilities) | General purpose middleware connectivity utilities, for instance a   linked_list or a json_parser | See the code for each                                        |
 | [bless](https://github.com/cypresssemiconductorco/bless)     | The Bluetooth Low Energy Subsystem (bless)   library contains a comprehensive API to configure the BLE Stack and the underlying chip hardware. It incorporates a Bluetooth Core Specification v5.0   compliant protocol stack. You may access the GAP, GATT and L2CAP layers of the stack using the API. | [API   Reference](https://cypresssemiconductorco.github.io/bless/ble_api_reference_manual/html/index.html) |
