@@ -76,7 +76,7 @@ A BSP is specific to a board and the device on that board. For custom developmen
 
 ## Middleware
 
-The Bluetooth SDK repositories are not yet public, so the link to these repos will give you a 404 error. For now, this gives you an idea of the btsdk capabilities and organization.
+The Bluetooth SDK is factored into multiple smaller repositories. In the ModusToolbox tools, build the wiced_btsdk code example first. That creates a local instance of the entire SDK on your computer.
 
 | Connectivity    Middleware                                   | Description                                                  | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
