@@ -52,7 +52,7 @@ The BSP is a central feature of ModusToolbox enablement software. The BSP specif
 - startup code and linker files for the device
 - other libraries that are required to support a kit
 
-BSPs are aligned with Cypress kits; they provide files for basic device functionality. A BSP typically has a *design.modus* file that configures clocks and other board-specific capabilities. That file is used by the ModusToolbox configurators. (See [Configurators and Tools](#_Configurators_and_Tools)). A BSP also includes the required device support code for the device on the board. Users can modify the configuration to suit their application. A BSP uses low-level resources to add functionality. For example, a BSP typically adds the following libraries, as appropriate for the kit/device:
+BSPs are aligned with Cypress kits; they provide files for basic device functionality. A BSP typically has a *design.modus* file that configures clocks and other board-specific capabilities. That file is used by the ModusToolbox configurators. A BSP also includes the required device support code for the device on the board. Users can modify the configuration to suit their application. A BSP uses low-level resources to add functionality. For example, a BSP typically adds the following libraries, as appropriate for the kit/device:
 
 - core-lib – to implement return types and generic functionality useful for any kit
 - psoc6hal – to implement the ModusToolbox hardware abstraction layer
