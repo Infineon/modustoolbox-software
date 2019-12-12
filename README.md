@@ -1,4 +1,4 @@
-# PSoC® 6 Enablement Software
+# ModusToolbox Enablement Software
 
 As a developer, you have preferred tools and workflows for creating products. What you need is enablement software you can use seamlessly in your existing environment. This document lists and describes what's available to you. ModusToolbox software is:
 
