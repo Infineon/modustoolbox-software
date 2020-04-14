@@ -69,10 +69,10 @@ The search results include links to each repository, named TARGET_*kitnumber*. F
 The information provided varies, but typically includes one or more of:
 
 - an [API reference for the BSP](https://cypresssemiconductorco.github.io/TARGET_CY8CPROTO-062-4343W/html/modules.html)
-- the [BSP User Guide](https://cypresssemiconductorco.github.io/TARGET_CY8CPROTO-062-4343W/html/md_bsp_mt_bsp_user_guide.html)
+- the [BSP Overview](https://cypresssemiconductorco.github.io/TARGET_CY8CPROTO-062-4343W/html/md_bsp_boards_mt_bsp_user_guide.html)
 - a link to the [associated kit page](https://www.cypress.com/documentation/development-kitsboards/psoc-6-wi-fi-bt-prototyping-kit-cy8cproto-062-4343w) with kit-specific documentation
 
-A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the[ BSP User Guide](https://cypresssemiconductorco.github.io/TARGET_CY8CKIT-062-WIFI-BT/html/md_bsp_mt_bsp_user_guide.html) for how BSPs work and how to create your own for a custom board.
+A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the[ ModusToolbox User Guide](http://www.cypress.com/ModusToolboxUserGuide) chapter on BSPs for how they work and how to create your own for a custom board.
 
 ## Middleware
 
