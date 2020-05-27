@@ -14,9 +14,9 @@ ModusToolbox software encompasses a variety of software resources, organized in 
 
 [Middleware](#middleware)
 
-See the [ModusToolbox Software Overview](https://www.cypress.com/ModusToolboxSWOverview) document to understand how all this works. Some libraries are intended for development in a particular ecosystem, like Mbed OS.
+See the [ModusToolbox Software Overview](https://www.cypress.com/ModusToolboxUserGuide) chapter of the ModusToolox User Guide to understand how all this works.
 
-Each library is delivered in its own repository, complete with documentation. Both Cypress and third-party middleware is available. The information below includes links to each repository, and various resources associated with each library. Go to each repository to see what releases are available for that library. 
+Each library is delivered in its own repository, complete with documentation. Both Cypress and third-party middleware is available. The information below includes links to each repository, and various resources associated with each library. Go to each repository to see what releases are available for that library.
 
 Cypress also provides a [comprehensive set of code examples](https://github.com/cypresssemiconductorco/Code-Examples-for-ModusToolbox-Software) covering most if not all functionality in the provided software. In ModusToolbox, a code example (also called a starter app) automatically incorporates all libraries required for the application. 
 
