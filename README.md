@@ -30,7 +30,7 @@ Go to the [ModusToolbox Code Example](https://github.com/cypresssemiconductorco/
 
 ## Libraries
 
-In addition to the installer and code examples, there are many other parts of ModusToolbox that are provided as libraries. These libraries are essential for taking full advantage of the various features of our PSoC 6 MCUs and Wi-Fi/Bluetooth combo chips. When you create a ModusToolbox application, the system downloads all the libraries your application needs. See the [ModusToolbox Software Overview](https://www.cypress.com/ModusToolboxUserGuide) chapter of the ModusToolbox User Guide to understand how all this works.
+In addition to the installer and code examples, there are many other parts of ModusToolbox that are provided as libraries. These libraries are essential for taking full advantage of the various features of our PSoC 6 MCUs and Wi-Fi/Bluetooth combo chips. When you create a ModusToolbox application, the system downloads all the libraries your application needs. See the [ModusToolbox Build System](https://www.cypress.com/ModusToolboxUserGuide) chapter of the ModusToolbox User Guide to understand how all this works.
 
 From a general perspective, the ModusToolbox libraries include:
 
