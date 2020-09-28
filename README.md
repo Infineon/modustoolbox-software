@@ -128,9 +128,9 @@ A BSP uses low-level resources to add functionality. For example, a PSoC 6 BSP t
 
 | Library | Details | Docs |
 | ------- | ------- | ---- |
-| [mtb-psoc4-hal](https://github.com/cypresssemiconductorco/mtb-psoc4-hal) | PSoC 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 4 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API Reference](https://cypresssemiconductorco.github.io/mtb-psoc4-hal/api_reference_manual/html/index.html) |
-| [mtb-psoc4-pdl](https://github.com/cypresssemiconductorco/mtb-psoc4-pdl) | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://cypresssemiconductorco.github.io/mtb-psoc4-pdl/api_reference_manual/html/index.html) |
-| [recipe-make-psoc4](https://github.com/cypresssemiconductorco/recipe-make-psoc4) | PSoC 4 Make build recipe provides the make files and scripts for building and programming PSoC 4 applications. | [API Reference](https://cypresssemiconductorco.github.io/recipe-make-psoc4/api_reference_manual/html/index.html) |
+| [mtb-hal-cat2](https://github.com/cypresssemiconductorco/mtb-hal-cat2) | PSoC 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 4 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API Reference](https://cypresssemiconductorco.github.io/mtb-hal-cat2/api_reference_manual/html/index.html) |
+| [mtb-pdl-cat2](https://github.com/cypresssemiconductorco/mtb-pdl-cat2) | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://cypresssemiconductorco.github.io/mtb-pdl-cat2/api_reference_manual/html/index.html) |
+| [recipe-make-cat2](https://github.com/cypresssemiconductorco/recipe-make-cat2) | PSoC 4 Make build recipe provides the make files and scripts for building and programming PSoC 4 applications. | [API Reference](https://cypresssemiconductorco.github.io/recipe-make-cat2/api_reference_manual/html/index.html) |
 
 #### BTSDK BSP Libraries
 
