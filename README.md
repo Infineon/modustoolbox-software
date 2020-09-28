@@ -58,8 +58,8 @@ There are many other parts of ModusToolbox that are provided as libraries. These
 
 From a general perspective, the ModusToolbox libraries include:
 
-- [PSoC 6 BSP Libraries](#psoc-6-bsp-libraries): The libraries available when the active BSP is for a PSoC 6 MCU.
-- [PSoC 4 BSP Libraries](#psoc-4-bsp-libraries): The libraries available when the active BSP is for a PSoC 4 MCU.
+- [PSoC 6 Base Libraries](#psoc-6-base-libraries) and [PSoC 6 Feature Libraries](#psoc-6-feature-libraries): The libraries available when the active BSP is for a PSoC 6 MCU.
+<!--- - [PSoC 4 BSP Libraries](#psoc-4-bsp-libraries): The libraries available when the active BSP is for a PSoC 4 MCU. -->
 - [BTSDK BSP Libraries](#btsdk-bsp-libraries): The libraries available when the active BSP is for a BTSDK device, enabling Bluetooth connectivity on stand-alone Bluetooth devices
 - [AnyCloud Libraries](#anycloud-libraries): The libraries for AnyCloud applications, enabling Wi-Fi and BT on a PSoC 6 hosted CYW43xxx device.
 - [Libraries for Third-Party Systems](#libraries-for-third-party-systems): These libraries are used with third party systems, such as AFR and Mbed OS.
@@ -80,7 +80,7 @@ Different boards contain different peripherals or utilities (utils for short). T
 
 | Library | Details | Docs |
 | ------- | ------- | ---- |
-| [CY8CKIT-028-TFT](https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT) | Arduino compatible TFT display that connects to kits such as the [PSoC 6 WiFi-BT Pioneer Kit CY8CKIT-062-WiFi-BT](https://www.cypress.com/cy8ckit-062-wifi-bt). | [Webpage]([CY8CKIT-028-TFT](https://www.cypress.com/documentation/development-kitsboards/tft-display-shield-board-cy8ckit-028-tft)) |
+| [CY8CKIT-028-TFT](https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT) | Arduino compatible TFT display that connects to kits such as the [PSoC 6 WiFi-BT Pioneer Kit CY8CKIT-062-WiFi-BT](https://www.cypress.com/cy8ckit-062-wifi-bt). | [Webpage](https://www.cypress.com/documentation/development-kitsboards/tft-display-shield-board-cy8ckit-028-tft)) |
 | [retarget-io](https://github.com/cypresssemiconductorco/retarget-io) | Provides a board-independent API to retarget text input/output to a serial UART on a kit | [API Reference](https://cypresssemiconductorco.github.io/retarget-io/html/index.html) |
 | [rgb-led](https://github.com/cypresssemiconductorco/rgb-led) | Provides a board-independent API to use the RGB LED on a kit | [API Reference](https://cypresssemiconductorco.github.io/rgb-led/html/index.html) |
 | [serial-flash](https://github.com/cypresssemiconductorco/serial-flash) | Provides a board-independent API to use the serial flash on a kit | [API Reference](https://cypresssemiconductorco.github.io/serial-flash/html/index.html) |
@@ -91,18 +91,18 @@ A BSP uses low-level resources to add core functionality. For example, a BSP typ
 | Library | Details | Docs |
 | ------- | ------- | ---- |
 | [core-lib](https://github.com/cypresssemiconductorco/core-lib) | Header files that declare basic types and utilities (such as result types or ASSERT) that can be used by multiple BSPs. | [API Reference](https://cypresssemiconductorco.github.io/core-lib/html/index.html) |
-| [core-make](https://github.com/cypresssemiconductorco/core-make) | Core Make build system provides generic build files and scripts for building and programming ModusToolbox applications. | [API Reference](https://cypresssemiconductorco.github.io/core-make/html/index.html) |
+| [core-make](https://github.com/cypresssemiconductorco/core-make) | Core Make build system provides generic build files and scripts for building and programming ModusToolbox applications. | Repository [readme file](https://github.com/cypresssemiconductorco/core-make/blob/master/README.md) |
 
 #### PSoC 6 Base Libraries
 A BSP uses low-level resources to add functionality. For example, a PSoC 6 BSP typically adds the following libraries, as appropriate for the kit/device.
 
 | Library | Details | Docs |
 | ------- | ------- | ---- |
-| [mtb-hal](https://github.com/cypresssemiconductorco/mtb-hal) | For the new MTB Flow, the PSoC 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API Reference](https://cypresssemiconductorco.github.io/mtb-hal/api_reference_manual/html/index.html) |
-| [mtb-pdl](https://github.com/cypresssemiconductorco/mtb-pdl) | For the new MTB Flow, the Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://cypresssemiconductorco.github.io/mtb-pdl/api_reference_manual/html/index.html) |
+| [mtb-hal-cat1](https://github.com/cypresssemiconductorco/mtb-hal-cat1) | For the new MTB Flow, the PSoC 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API Reference](https://cypresssemiconductorco.github.io/mtb-hal-cat1/api_reference_manual/html/index.html) |
+| [mtb-pdl-cat1](https://github.com/cypresssemiconductorco/mtb-pdl-cat1) | For the new MTB Flow, the Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://cypresssemiconductorco.github.io/mtb-pdl-cat1/api_reference_manual/html/index.html) |
 | [psoc6cm0p](https://github.com/cypresssemiconductorco/psoc6cm0p) | Prebuilt application images for the Cortex M0+ CPU of a dual-CPU PSoC 6 device. | Repository [readme file](https://github.com/cypresssemiconductorco/psoc6cm0p/blob/master/README.md) |
 | [psoc6make](https://github.com/cypresssemiconductorco/psoc6make) | The build recipe makefiles and scripts for building and programming PSoC 6 applications. You can build an application either through a command-line interface (CLI), the ModusToolbox IDE, or a third-party IDE. | Repository [readme file](https://github.com/cypresssemiconductorco/psoc6make/blob/master/README.md) |
-| [recipe-make-arch1](https://github.com/cypresssemiconductorco/recipe-make-arch1) | For the new MTB Flow, the PSoC 6 Make build recipe provides the make files and scripts for building and programming PSoC 6 applications. | Repository [readme file](https://github.com/cypresssemiconductorco/recipe-arch1/blob/master/README.md) |
+| [recipe-make-cat1a](https://github.com/cypresssemiconductorco/recipe-make-cat1a) | For the new MTB Flow, the PSoC 6 Make build recipe provides the make files and scripts for building and programming PSoC 6 applications. | Repository [readme file](https://github.com/cypresssemiconductorco/recipe-make-cat1a/blob/master/README.md) |
 |  |  |  |
 | [psoc6hal](https://github.com/cypresssemiconductorco/psoc6hal) | For the old LIB flow, the Hardware Abstraction Layer (HAL) provides a high-level interface to configure and use hardware blocks on Cypress MCUs. It is a generic interface that can be used across multiple product families. The focus on ease-of-use and portability means the HAL does not expose all of the low-level peripheral functionality | [API Reference](https://cypresssemiconductorco.github.io/psoc6hal/html/index.html) |
 | [psoc6pdl](https://github.com/cypresssemiconductorco/psoc6pdl) | For the old LIB flow, the peripheral driver library for PSoC 6 devices. The library is device-independent, so it can be precompiled and used for any PSoC 6 MCU device or project. Included automatically by any BSP targeting a PSoC 6 device | [API Reference](https://cypresssemiconductorco.github.io/psoc6pdl/pdl_api_reference_manual/html/index.html) |
@@ -123,14 +123,15 @@ PSoC 6 feature libraries (also called middleware), provide access to various fea
 | [freertos](https://github.com/cypresssemiconductorco/freertos) | FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU. | [FreeRTOS web page](http://www.freertos.org/a00106.html)     |
 | [usbdev](https://github.com/cypresssemiconductorco/usbdev)   | The USB Device library provides a full-speed USB 2.0 Chapter 9 specification compliant device framework. | [API Reference](https://cypresssemiconductorco.github.io/usbdev/usbfs_dev_api_reference_manual/html/index.html) |
 
+<!---
 #### PSoC 4 Base Libraries
 A BSP uses low-level resources to add functionality. For example, a PSoC 6 BSP typically adds the following libraries, as appropriate for the kit/device.
-
 | Library | Details | Docs |
 | ------- | ------- | ---- |
 | [mtb-hal-cat2](https://github.com/cypresssemiconductorco/mtb-hal-cat2) | PSoC 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 4 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API Reference](https://cypresssemiconductorco.github.io/mtb-hal-cat2/api_reference_manual/html/index.html) |
 | [mtb-pdl-cat2](https://github.com/cypresssemiconductorco/mtb-pdl-cat2) | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://cypresssemiconductorco.github.io/mtb-pdl-cat2/api_reference_manual/html/index.html) |
 | [recipe-make-cat2](https://github.com/cypresssemiconductorco/recipe-make-cat2) | PSoC 4 Make build recipe provides the make files and scripts for building and programming PSoC 4 applications. | [API Reference](https://cypresssemiconductorco.github.io/recipe-make-cat2/api_reference_manual/html/index.html) |
+-->
 
 #### BTSDK BSP Libraries
 
@@ -141,7 +142,7 @@ In the ModusToolbox environment for BTSDK v2.8, BSPs and libraries use the new M
 
 | Library | Details |
 | ------- | ------- |
-| [BTSDK Shared Includes](https://github.com/cypresssemiconductorco/btsdk-common) | BTSDK shared source used by WICED applications. |
+| [BTSDK Shared Source](https://github.com/cypresssemiconductorco/btsdk-common) | BTSDK shared source used by WICED applications. |
 | [BTSDK Shared Includes](https://github.com/cypresssemiconductorco/btsdk-include) | BTSDK shared headers used for all WICED platforms. |
 | [BTSDK Tools](https://github.com/cypresssemiconductorco/btsdk-tools) | BTSDK shared tools used for all WICED platforms. |
 
@@ -153,8 +154,8 @@ In the ModusToolbox environment for BTSDK v2.8, BSPs and libraries use the new M
 | [CYW20719B2](https://github.com/cypresssemiconductorco/20719B2) | BTSDK CSP base library providing core support for CYW20719B2 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20719-B2_Bluetooth/API/index.html) |
 | [CYW20721B2](https://github.com/cypresssemiconductorco/20721B2) | BTSDK CSP base library providing core support for CYW20721B2 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20721-B2_Bluetooth/API/index.html) |
 | [CYW20735B1](https://github.com/cypresssemiconductorco/20735B1) | BTSDK CSP base library providing core support for CYW20735B1 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20735-B1_Bluetooth/API/index.html) |
-| [CYW20819A1](https://github.com/cypresssemiconductorco/20819A1) | BTSDK CSP base library providing core support for CYW20819A1 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20819-A1_Bluetooth/API/index.html) |
-| [CYW20820A1](https://github.com/cypresssemiconductorco/20820A1) | BTSDK CSP base library providing core support for CYW20820A1 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20820-A1_Bluetooth/API/index.html) |
+| [CYW20819A1](https://github.com/cypresssemiconductorco/20819A1) | BTSDK CSP base library providing core support for CYW20819A1 devices. |  |
+| [CYW20820A1](https://github.com/cypresssemiconductorco/20820A1) | BTSDK CSP base library providing core support for CYW20820A1 devices. |  |
 | [CYW20835B1](https://github.com/cypresssemiconductorco/20835B1) | BTSDK CSP base library providing core support for CYW20835B1 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/20835-B1_Bluetooth/API/index.html) |
 | [CYW43012C0](https://github.com/cypresssemiconductorco/43012C0) | BTSDK CSP base library providing core support for CYW43012C0 devices. | [API Reference](https://cypresssemiconductorco.github.io/btsdk-docs/BT-SDK/43012-C0_Bluetooth/API/index.html) |
 
@@ -183,7 +184,7 @@ In the ModusToolbox environment for BTSDK v2.8, BSPs and libraries use the new M
 | [BTSDK Host Apps for BT and BLE](https://github.com/cypresssemiconductorco/btsdk-host-apps-bt-ble) | Windows, Linux, and macOS based host apps for BT and BLE such as ClientControl. |
 | [BTSDK Host and Peer Apps for Mesh](https://github.com/cypresssemiconductorco/btsdk-host-peer-apps-mesh) | Windows, Linux, and macOS based host apps to control BLE Mesh embedded apps, as well as Windows, Android, and iOS based peer apps to configure and provision BLE Mesh embedded apps. |
 | [BTSDK Peer Apps for BLE](https://github.com/cypresssemiconductorco/btsdk-peer-apps-ble) | Windows, Android, and iOS based peer apps for BLE such as hello_sensor. |
-| [BTSDK Peer Apps for OTA](btsdk-peer-apps-ota) | Windows, Linux, and macOS based peer apps for OTA app. |
+| [BTSDK Peer Apps for OTA](https://github.com/cypresssemiconductorco/btsdk-peer-apps-ota) | Windows, Linux, and macOS based peer apps for OTA app. |
 | [BTSDK Utilities](https://github.com/cypresssemiconductorco/btsdk-utils) | BTSDK shared utilities usable for all WICED platforms, including BTSpy. |
 
 
@@ -200,7 +201,7 @@ AnyCloud is based on the industry standard lwIP TCP/IP stack and Mbed TLS networ
 | [wifi-mw-core](https://github.com/cypresssemiconductorco/wifi-mw-core) | The Wi-Fi Middleware Core library bundles the core libraries that any Wi-Fi application needs. | [API Reference](https://cypresssemiconductorco.github.io/wifi-mw-core/api_reference_manual/html/index.html) |
 | [wifi-connection-manager](https://github.com/cypresssemiconductorco/wifi-connection-manager) | The Wi-Fi Connection Manager (WCM) includes the wifi-mw-core library by default and provides easy to use APIs to establish and monitor Wi-Fi connections on Cypress devices that support Wi-Fi connectivity. | [API Reference](https://cypresssemiconductorco.github.io/wifi-connection-manager/api_reference_manual/html/index.html) |
 | [wifi-host-driver](https://github.com/cypresssemiconductorco/wifi-host-driver) | The Wi-Fi Host Driver (WHD) is an independent, embedded driver that provides a set of APIs to interact with Cypress WLAN chips. | [API Reference](https://cypresssemiconductorco.github.io/wifi-host-driver/API/index.html) |
-| [anycloud-ota](https://github.com/cypresssemiconductorco/anycloud-ota) | This Over-The-Air (OTA) library enables applications to implement sophisticated OTA software updates from any cloud platform using custom cloud management tools. | [API Reference](https://cypresssemiconductorco.github.io/anycould-ota/api_reference_manual/html/index.html) |
+| [anycloud-ota](https://github.com/cypresssemiconductorco/anycloud-ota) | This Over-The-Air (OTA) library enables applications to implement sophisticated OTA software updates from any cloud platform using custom cloud management tools. | [API Reference](https://cypresssemiconductorco.github.io/anycloud-ota/api_reference_manual/html/index.html) |
 | [mqtt](https://github.com/cypresssemiconductorco/mqtt) | This library includes the open source AWS IoT device SDK embedded C library plus some glue to ensure seamless MQTT cloud connectivity. | [API Reference](https://cypresssemiconductorco.github.io/mqtt/api_reference_manual/html/index.html) |
 | [secure-sockets](https://github.com/cypresssemiconductorco/secure-sockets) | The Secure Sockets library eases application development by exposing a socket like interface for both secure and non-secure socket communication. | [API Reference](https://cypresssemiconductorco.github.io/secure-sockets/api_reference_manual/html/index.html) |
 | lwIP | This is a lightweight open-source TCP/IP stack. | [Non-Cypress website](http://www.nongnu.org/lwip/2_1_x/index.html) |
