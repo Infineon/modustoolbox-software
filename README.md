@@ -1,6 +1,6 @@
 # ModusToolbox Software
 
-As a developer, you have preferred tools and workflows for creating products. ModusToolbox software encompasses a variety of software resources that you can use seamlessly in your existing environment. This page helps you identify and find the ModusToolbox resources available. These resources are grouped in the following top-level categories:
+As a developer, you have preferred tools and workflows for creating products. ModusToolbox software encompasses a variety of software resources that you can use seamlessly in your existing environment. This page helps you identify and find the ModusToolbox resources available. These resources are grouped in the following top-level categories: 
 
 - [Tools](#tools)
 - [Code Examples](#code-examples)
