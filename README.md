@@ -13,15 +13,15 @@ This page helps you identify and find the ModusToolbox™ resources available. T
 
 ## Tools
 
-The ModusToolbox™ tools package installer (https://www.cypress.com/products/modustoolbox-software-environment) provides various multi-platform development tools to help you work in your preferred flow. The installer includes a make-based build system, Eclipse IDE, configurators, stand-alone project creator and library manager, as well as support for using other IDEs, generating code, compiling, programming, and debugging. Refer to the [ModusToolbox™ User Guide](https://www.cypress.com/ModusToolboxUserGuide) for complete details.
+The ModusToolbox™ tools package installer (https://www.cypress.com/products/modustoolbox-software-environment) provides various multi-platform development tools to help you work in your preferred flow. The installer includes a make-based build system, Eclipse IDE, configurators, stand-alone project creator and library manager, as well as support for using other IDEs, generating code, compiling, programming, and debugging. Refer to the [ModusToolbox™ user guide](https://www.cypress.com/ModusToolboxUserGuide) for complete details.
 
 Some tools are available separately on GitHub:
 
 | Tool                                                         | Description                                                  | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Firmware-loader](https://github.com/Infineon/Firmware-loader) | A command-line tool to update KitProg low-level program/debug communication firmware on Cypress kits. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [ReadMe](https://github.com/Infineon/Firmware-loader/blob/master/README.md) |
-| [OpenOCD](https://github.com/Infineon/openocd)               | The Open On-Chip Debugger provides debugging, in-system programming, and boundary-scan testing. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [ReadMe](https://github.com/Infineon/openocd/blob/cypress/README.MD) |
-| ["Secure Boot" SDK](https://github.com/Infineon/cysecuretools) | This SDK includes all required libraries, tools, and sample code to provision and develop applications for PSoC™ 64 "Secure Boot" MCUs. | [User Guide](https://www.cypress.com/documentation/software-and-drivers/psoc-64-secure-mcu-secure-boot-sdk-user-guide) |
+| [Firmware-loader](https://github.com/Infineon/Firmware-loader) | A command-line tool to update KitProg low-level program/debug communication firmware on Cypress kits. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [readme](https://github.com/Infineon/Firmware-loader/blob/master/README.md) |
+| [OpenOCD](https://github.com/Infineon/openocd)               | The Open On-Chip Debugger provides debugging, in-system programming, and boundary-scan testing. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [readme](https://github.com/Infineon/openocd/blob/cypress/README.MD) |
+| ["Secure Boot" SDK](https://github.com/Infineon/cysecuretools) | This SDK includes all required libraries, tools, and sample code to provision and develop applications for PSoC™ 64 "Secure Boot" MCUs. | [User guide](https://www.cypress.com/documentation/software-and-drivers/psoc-64-secure-mcu-secure-boot-sdk-user-guide) |
 
 
 ## Board support packages
@@ -233,7 +233,7 @@ ModusToolbox™ software supports some third-party IoT ecosystems, like AWS IoT.
 
 | Library                                                      | Details                                                      | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [aws-iot](https://github.com/Infineon/aws-iot)               | Provides secured, bi-directional communication between Internet-connected devices such as sensors, actuators, embedded micro-controllers, or smart appliances and the AWS Cloud. Supports MQTT and HTTP protocols. | [Developer Gruide](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) |
+| [aws-iot](https://github.com/Infineon/aws-iot)               | Provides secured, bi-directional communication between Internet-connected devices such as sensors, actuators, embedded micro-controllers, or smart appliances and the AWS Cloud. Supports MQTT and HTTP protocols. | [Developer guide](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) |
 | [enterprise-security](https://github.com/Infineon/enterprise-security) | This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) used in enterprise Wi-Fi networks | [API reference](https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html) |
 | [http-server](https://github.com/Infineon/http-server)       | Provides communication functions for an HTTP server.         | [ReadMe](https://github.com/Infineon/http-server/blob/master/README.md) |
 | [connectivity-utilities](https://github.com/Infineon/connectivity-utilities) | General purpose middleware connectivity utilities, for instance a linked_list or a json_parser. This library is supported on both AnyCloud and Mbed OS. | See the code for each.                                       |
