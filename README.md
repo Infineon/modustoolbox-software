@@ -1,12 +1,12 @@
-# ModusToolbox™ Software
+# ModusToolbox™ software
 
 ModusToolbox™ software is a modern, extensible development environment supporting a wide range of Infineon microcontroller devices. It provides a flexible set of tools and a diverse, high-quality collection of application-focused software. These include configuration tools, low-level drivers, libraries, and operating system support, most of which are compatible with Linux, macOS, and Windows-hosted environments. 
 
 This page helps you identify and find the ModusToolbox™ resources available. These resources are grouped in the following top-level categories:
 
 - [Tools](#tools)
-- [Code Examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
-- [Board Support Packages](#board-support-packages)
+- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
+- [Board support packages](#board-support-packages)
 - [Libraries](#libraries)
 
 
@@ -24,7 +24,7 @@ Some tools are available separately on GitHub:
 | ["Secure Boot" SDK](https://github.com/Infineon/cysecuretools) | This SDK includes all required libraries, tools, and sample code to provision and develop applications for PSoC™ 64 "Secure Boot" MCUs. | [User Guide](https://www.cypress.com/documentation/software-and-drivers/psoc-64-secure-mcu-secure-boot-sdk-user-guide) |
 
 
-## Board Support Packages
+## Board support packages
 
 For any ModusToolbox™ application, you must specify a Board Support Package (BSP), which defines basic device features and capabilities. The BSP is a central feature of ModusToolbox™ software. The BSP specifies several critical items for the application, including:
 
@@ -52,9 +52,9 @@ A BSP is specific to a board and the device on that board. For custom developmen
 
 There are many other parts of ModusToolbox™ software that are provided as libraries. When you create a ModusToolbox™ application, the system downloads all the libraries your application needs to take full advantage of the various features of our devices. A ModusToolbox™ application can use different libraries based on the Active BSP. 
 
-#### Common Libraries
+#### Common libraries
 
-##### Core Libraries
+##### Core libraries
 
 Most BSPs typically add the following libraries as appropriate for the kit/device.
 
@@ -69,7 +69,7 @@ Most BSPs typically add the following libraries as appropriate for the kit/devic
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [abstraction-rtos](https://github.com/Infineon/abstraction-rtos) | Abstraction layers provide APIs that allow different libraries to interact with each other without having to know specific details about a given library. This library provides a common API that allows code or middleware to use RTOS features. In the ModusToolbox™ Library Manager, this library is listed under "Abstraction Layer." | [API Reference](https://infineon.github.io/abstraction-rtos/html/index.html) |
 
-##### Board Utilities
+##### Board utilities
 
 Different boards contain different peripherals or utilities (utils for short). The BSP automatically includes the utils libraries for that kit. For example, if the board contains an RGB LED, it will use the rgb-led library. The following show a few of the common utils that may be available for different boards. Your application may include different utils depending on your board's resources.
 
@@ -81,9 +81,9 @@ Different boards contain different peripherals or utilities (utils for short). T
 
 
 
-#### Base Libraries
+#### Base libraries
 
-##### PSoC™ 6 Base Libraries
+##### PSoC™ 6 base libraries
 
 A PSoC™ 6 BSP adds the following libraries as appropriate for the kit/device.
 
@@ -97,7 +97,7 @@ A PSoC™ 6 BSP adds the following libraries as appropriate for the kit/device.
 | [psoc6hal](https://github.com/Infineon/psoc6hal)             | For the old LIB flow, the Hardware Abstraction Layer (HAL) provides a high-level interface to configure and use hardware blocks on our MCUs. It is a generic interface that can be used across multiple product families. The focus on ease-of-use and portability means the HAL does not expose all of the low-level peripheral functionality | [API Reference](https://infineon.github.io/psoc6hal/html/index.html) |
 | [psoc6pdl](https://github.com/Infineon/psoc6pdl)             | For the old LIB flow, the peripheral driver library for PSoC™ 6 MCUs. The library is device-independent, so it can be precompiled and used for any PSoC™ 6 MCU device or project. Included automatically by any BSP targeting a PSoC™ 6 MCU. | [API Reference](https://infineon.github.io/psoc6pdl/pdl_api_reference_manual/html/index.html) |
 
-##### PSoC™ 4 / PMG Base Libraries
+##### PSoC™ 4 / PMG base libraries
 
 PSoC™ 4 and PMG BSPs add the following libraries as appropriate for the kit/device.
 
@@ -107,7 +107,7 @@ PSoC™ 4 and PMG BSPs add the following libraries as appropriate for the kit/de
 | [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://infineon.github.io/mtb-pdl-cat2/api_reference_manual/html/index.html) |
 | [recipe-make-cat2](https://github.com/Infineon/recipe-make-cat2) | PSoC™ 4 Make build recipe provides the make files and scripts for building and programming PSoC™ 4 applications. | [API Reference](https://infineon.github.io/recipe-make-cat2/api_reference_manual/html/index.html) |
 
-##### XMC Base Libraries
+##### XMC base libraries
 
 An XMC MCU typically adds the following libraries, as appropriate for the kit/device.
 
@@ -118,7 +118,7 @@ An XMC MCU typically adds the following libraries, as appropriate for the kit/de
 
 
 
-#### MCU Middleware Libraries
+#### MCU middleware libraries
 
 For the various MCU BSPs, the following middleware libraries are typically available.
 
@@ -131,7 +131,7 @@ For the various MCU BSPs, the following middleware libraries are typically avail
 
 
 
-#### PSoC™ 6 Middleware Libraries
+#### PSoC™ 6 middleware libraries
 
 For PSoC™ 6 MCUs, there are additional features on the device, including:
 
@@ -147,12 +147,12 @@ For PSoC™ 6 MCUs, there are additional features on the device, including:
 
 
 
-#### Bluetooth® BSP Libraries
+#### Bluetooth® BSP libraries
 
 ***BTSDK v2.8 and later Structure***
 In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the new MTB flow. In this flow, there are the following libraries.
 
-##### BTSDK Core Support
+##### BTSDK core support
 
 | Library                                                      | Details                                      |
 | ------------------------------------------------------------ | -------------------------------------------- |
@@ -160,7 +160,7 @@ In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the ne
 | [BTSDK Shared Includes](https://github.com/Infineon/btsdk-include) | BTSDK shared headers used for all platforms. |
 | [BTSDK Tools](https://github.com/Infineon/btsdk-tools)       | BTSDK shared tools used for all platforms.   |
 
-##### BTSDK CSP Base Libraries
+##### BTSDK CSP base libraries
 
 | Library                                           | Details                                                      | Docs                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -173,7 +173,7 @@ In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the ne
 | [CYW20835B1](https://github.com/Infineon/20835B1) | BTSDK CSP base library providing core support for CYW20835B1 devices. | [API Reference](https://infineon.github.io/btsdk-docs/BT-SDK/20835-B1_Bluetooth/API/index.html) |
 | [CYW43012C0](https://github.com/Infineon/43012C0) | BTSDK CSP base library providing core support for CYW43012C0 devices. | [API Reference](https://infineon.github.io/btsdk-docs/BT-SDK/43012-C0_Bluetooth/API/index.html) |
 
-##### BTSDK Shared Source Libraries
+##### BTSDK shared source libraries
 
 - [btsdk-audio](https://github.com/Infineon/btsdk-audio) 
 - [btsdk-ble](https://github.com/Infineon/btsdk-ble) 
@@ -191,7 +191,7 @@ In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the ne
 - [btsdk-peer-apps-ota](https://github.com/Infineon/btsdk-peer-apps-ota) 
 
 
-##### BTSDK Utilities and Host/Peer Apps
+##### BTSDK utilities and host/peer apps
 
 | Library                                                      | Details                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -206,7 +206,7 @@ In the ModusToolbox™ environment for BTSDK v2.7, BSPs and libraries use the LI
 
 
 
-#### AnyCloud Libraries
+#### AnyCloud libraries
 
 AnyCloud is based on the industry standard lwIP TCP/IP stack and Mbed TLS network security. These libraries provide core functionality including connectivity, security, firmware upgrade support, and application layer protocols for applications that do not use commercial cloud management systems.
 
@@ -227,7 +227,7 @@ AnyCloud is based on the industry standard lwIP TCP/IP stack and Mbed TLS networ
 
 
 
-#### Libraries for Third-Party Systems
+#### Libraries for third-party systems
 
 ModusToolbox™ software supports some third-party IoT ecosystems, like AWS IoT. Vendors typically provide libraries for their ecosystem. We extend some vendors' libraries to provide support for our devices (like aws-iot), provides a utility to make working with an ecosystem library easier (like http-server), and uses some open source libraries as they are (like Arm MBed TLS).
 
