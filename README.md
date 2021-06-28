@@ -41,10 +41,10 @@ The search results include links to each repository, named TARGET_*kitnumber*. F
 The information provided varies, but typically includes one or more of:
 
 - an [API reference for the BSP](https://infineon.github.io/TARGET_CY8CPROTO-062-4343W/html/modules.html)
-- the [BSP Overview](https://infineon.github.io/TARGET_CY8CPROTO-062-4343W/html/md_bsp_boards_mt_bsp_user_guide.html)
+- the [BSP overview](https://infineon.github.io/TARGET_CY8CPROTO-062-4343W/html/md_bsp_boards_mt_bsp_user_guide.html)
 - a link to the [associated kit page](https://www.cypress.com/documentation/development-kitsboards/psoc-6-wi-fi-bt-prototyping-kit-cy8cproto-062-4343w) with kit-specific documentation
 
-A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ User Guide](http://www.cypress.com/ModusToolboxUserGuide) chapter on BSPs for how they work and how to create your own for a custom board.
+A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ user guide](http://www.cypress.com/ModusToolboxUserGuide) chapter on BSPs for how they work and how to create your own for a custom board.
 
 
 
@@ -60,7 +60,7 @@ Most BSPs typically add the following libraries as appropriate for the kit/devic
 
 | Library                                            | Details                                                      | Docs                                                         |
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [core-lib](https://github.com/Infineon/core-lib)   | Header files that declare basic types and utilities (such as result types or ASSERT) that can be used by multiple BSPs. | [API Reference](https://infineon.github.io/core-lib/html/index.html) |
+| [core-lib](https://github.com/Infineon/core-lib)   | Header files that declare basic types and utilities (such as result types or ASSERT) that can be used by multiple BSPs. | [API reference](https://infineon.github.io/core-lib/html/index.html) |
 | [core-make](https://github.com/Infineon/core-make) | Core Make build system provides generic build files and scripts for building and programming ModusToolbox™ applications. | Repository [readme file](https://github.com/Infineon/core-make/blob/master/README.md) |
 
 ##### Abstraction Libraries 
@@ -89,8 +89,8 @@ A PSoC™ 6 BSP adds the following libraries as appropriate for the kit/device.
 
 | Library                                                      | Details                                                      | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)     | For the new MTB Flow, the PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API Reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
-| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)     | For the new MTB Flow, the Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API Reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
+| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)     | For the new MTB Flow, the PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
+| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)     | For the new MTB Flow, the Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
 | [psoc6cm0p](https://github.com/Infineon/psoc6cm0p)           | Prebuilt application images for the Cortex M0+ CPU of a dual-CPU PSoC™ 6 MCU. | Repository [readme file](https://github.com/Infineon/psoc6cm0p/blob/master/README.md) |
 | [psoc6make](https://github.com/Infineon/psoc6make)           | The build recipe Makefiles and scripts for building and programming PSoC™ 6 applications. You can build an application either through a command-line interface (CLI), the Eclipse IDE, or a third-party IDE. | Repository [readme file](https://github.com/Infineon/psoc6make/blob/master/README.md) |
 | [recipe-make-cat1a](https://github.com/Infineon/recipe-make-cat1a) | For the new MTB Flow, the PSoC™ 6 Make build recipe provides the make files and scripts for building and programming PSoC™ 6 applications. | Repository [readme file](https://github.com/Infineon/recipe-make-cat1a/blob/master/README.md) |
@@ -127,7 +127,7 @@ For the various MCU BSPs, the following middleware libraries are typically avail
 | [clib-support](https://github.com/Infineon/clib-support) | The CLib FreeRTOS support library provides the necessary hooks to make C library functions such as malloc and free thread safe. | [API reference](https://infineon.github.io/clib-support/html/index.html) |
 | [dfu](https://github.com/Infineon/dfu)                   | The Device Firmware Update (DFU) library provides an API for updating firmware images. | [API reference](https://infineon.github.io/dfu/dfu_sdk_api_reference_manual/html/index.html) |
 | [emeeprom](https://github.com/Infineon/emeeprom)         | The Emulated EEPROM library provides an API to manage an emulated EEPROM in flash. It has support for wear leveling and restoring corrupted data from a redundant copy. | [API reference](https://infineon.github.io/emeeprom/em_eeprom_api_reference_manual/html/index.html) |
-| [freertos](https://github.com/Infineon/freertos)         | FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU. | [FreeRTOS web page](http://www.freertos.org/a00106.html)     |
+| [freertos](https://github.com/Infineon/freertos)         | FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU. | [FreeRTOS webpage](http://www.freertos.org/a00106.html)     |
 
 
 
@@ -137,7 +137,7 @@ For PSoC™ 6 MCUs, there are additional features on the device, including:
 
 | Library                                          | Details                                                      | Docs                                                         |
 | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [bless](https://github.com/Infineon/bless)       | This library is specific to devices like **CY8C6347BZI-BLD53**, with onboard Bluetooth® and no separate connectivity device. The Bluetooth® Low Energy Subsystem (BLESS) library contains a comprehensive API to configure the Bluetooth® LE Stack and the underlying chip hardware. | [API Reference](https://infineon.github.io/bless/ble_api_reference_manual/html/index.html) |
+| [bless](https://github.com/Infineon/bless)       | This library is specific to devices like **CY8C6347BZI-BLD53**, with onboard Bluetooth® and no separate connectivity device. The Bluetooth® Low Energy Subsystem (BLESS) library contains a comprehensive API to configure the Bluetooth® LE Stack and the underlying chip hardware. | [API reference](https://infineon.github.io/bless/ble_api_reference_manual/html/index.html) |
 | [CAPSENSE™](https://github.com/Infineon/capsense) | Capacitive sensing can be used in a variety of applications and products where conventional mechanical buttons can be replaced with sleek human interfaces to transform the way users interact with electronic systems. | [API reference](https://infineon.github.io/capsense/capsense_api_reference_manual/html/index.html) |
 | [csdadc](https://github.com/Infineon/csdadc)     | Enables the ADC functionality of the CAPSENSE™ Sigma-Delta (CSD) hardware block. Useful for devices that do not include other ADC/IDAC options. | [API reference](https://infineon.github.io/csdadc/csdadc_api_reference_manual/html/index.html) |
 | [csdidac](https://github.com/Infineon/csdidac)   | The same, for IDAC functionality.                            | [API reference](https://infineon.github.io/csdidac/csdidac_api_reference_manual/html/index.html) |
@@ -156,9 +156,9 @@ In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the ne
 
 | Library                                                      | Details                                      |
 | ------------------------------------------------------------ | -------------------------------------------- |
-| [BTSDK Shared Source](https://github.com/Infineon/btsdk-common) | BTSDK shared source used by applications.    |
-| [BTSDK Shared Includes](https://github.com/Infineon/btsdk-include) | BTSDK shared headers used for all platforms. |
-| [BTSDK Tools](https://github.com/Infineon/btsdk-tools)       | BTSDK shared tools used for all platforms.   |
+| [BTSDK shared source](https://github.com/Infineon/btsdk-common) | BTSDK shared source used by applications.    |
+| [BTSDK shared includes](https://github.com/Infineon/btsdk-include) | BTSDK shared headers used for all platforms. |
+| [BTSDK tools](https://github.com/Infineon/btsdk-tools)       | BTSDK shared tools used for all platforms.   |
 
 ##### BTSDK CSP base libraries
 
@@ -195,11 +195,11 @@ In the ModusToolbox™ environment for BTSDK v2.8, BSPs and libraries use the ne
 
 | Library                                                      | Details                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [BTSDK Host Apps for BT and BLE](https://github.com/Infineon/btsdk-host-apps-bt-ble) | Windows, Linux, and macOS based host apps for Bluetooth® and Bluetooth® LE such as ClientControl. |
-| [BTSDK Host and Peer Apps for Mesh](https://github.com/Infineon/btsdk-host-peer-apps-mesh) | Windows, Linux, and macOS based host apps to control Bluetooth® LE Mesh embedded apps, as well as Windows, Android, and iOS based peer apps to configure and provision Bluetooth® LE Mesh embedded apps. |
-| [BTSDK Peer Apps for BLE](https://github.com/Infineon/btsdk-peer-apps-ble) | Windows, Android, and iOS based peer apps for Bluetooth® LE such as hello_sensor. |
-| [BTSDK Peer Apps for OTA](https://github.com/Infineon/btsdk-peer-apps-ota) | Windows, Linux, and macOS based peer apps for OTA app.       |
-| [BTSDK Utilities](https://github.com/Infineon/btsdk-utils)   | BTSDK shared utilities usable for all platforms, including BTSpy. |
+| [BTSDK host apps](https://github.com/Infineon/btsdk-host-apps-bt-ble) | Windows, Linux, and macOS based host apps for Bluetooth® and Bluetooth® LE such as ClientControl. |
+| [BTSDK Host and peer apps for mesh](https://github.com/Infineon/btsdk-host-peer-apps-mesh) | Windows, Linux, and macOS based host apps to control Bluetooth® LE Mesh embedded apps, as well as Windows, Android, and iOS based peer apps to configure and provision Bluetooth® LE Mesh embedded apps. |
+| [BTSDK peer apps for Bluetooth® LE](https://github.com/Infineon/btsdk-peer-apps-ble) | Windows, Android, and iOS based peer apps for Bluetooth® LE such as hello_sensor. |
+| [BTSDK peer apps for OTA](https://github.com/Infineon/btsdk-peer-apps-ota) | Windows, Linux, and macOS based peer apps for OTA app.       |
+| [BTSDK utilities](https://github.com/Infineon/btsdk-utils)   | BTSDK shared utilities usable for all platforms, including BTSpy. |
 
 ***BTSDK v2.7 and earlier Structure***
 In the ModusToolbox™ environment for BTSDK v2.7, BSPs and libraries use the LIB flow. You must create the "wiced_btsdk" code example first. That creates a local instance of the entire SDK on your computer. Follow the instructions in the the Project Creator tool. For more details about the WICED BTSDK, refer to https://infineon.github.io/btsdk-docs/BT-SDK/index.html.
@@ -222,7 +222,7 @@ AnyCloud is based on the industry standard lwIP TCP/IP stack and Mbed TLS networ
 | [cy-mbedtls-acceleration](https://github.com/Infineon/cy-mbedtls-acceleration) | We provide a library that extends MbedTLS to enable hardware-accelerated encryption on PSoC™ 6 MCUs. | [Arm Mbed TLS](https://github.com/ARMmbed/mbedtls)           |
 | [lpa](https://github.com/Infineon/lpa)                       | The Low Power Assistant (LPA) is a library and associated settings in the ModusToolbox™ Device Configurator that allow you to configure a PSoC 6 Host and WLAN (Wi-Fi / BT Radio) device for optimized low-power operation. | [API reference](https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html) |
 | [bluetooth-freertos](https://github.com/Infineon/bluetooth-freertos) | AIROC™ Bluetooth® host stack solution includes Bluetooth® stack library, Bluetooth® controller firmware, and platform/OS porting layer. | [API reference](https://infineon.github.io/bluetooth-freertos/api_reference_manual/html/index.html) |
-| [btstack](https://github.com/Infineon/btstack)               | BTSTACK is our Bluetooth® Host Protocol Stack implementation. The stack is optimized to work on our Bluetooth® controllers. | [BLE API Reference](https://infineon.github.io/btstack/ble/api_reference_manual/html/index.html) [Dual Mode API reference](https://infineon.github.io/btstack/dual_mode/api_reference_manual/html/index.html) |
+| [btstack](https://github.com/Infineon/btstack)               | BTSTACK is our Bluetooth® Host Protocol Stack implementation. The stack is optimized to work on our Bluetooth® controllers. | [API reference](https://infineon.github.io/btstack/ble/api_reference_manual/html/index.html) [Dual Mode API reference](https://infineon.github.io/btstack/dual_mode/api_reference_manual/html/index.html) |
 | [connectivity-utilities](https://github.com/Infineon/connectivity-utilities) | General purpose middleware connectivity utilities, for instance a linked_list or a json_parser. This library is supported on both AnyCloud and Mbed OS. | See the code for each.                                       |
 
 
@@ -235,7 +235,7 @@ ModusToolbox™ software supports some third-party IoT ecosystems, like AWS IoT.
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [aws-iot](https://github.com/Infineon/aws-iot)               | Provides secured, bi-directional communication between Internet-connected devices such as sensors, actuators, embedded micro-controllers, or smart appliances and the AWS Cloud. Supports MQTT and HTTP protocols. | [Developer guide](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) |
 | [enterprise-security](https://github.com/Infineon/enterprise-security) | This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) used in enterprise Wi-Fi networks | [API reference](https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html) |
-| [http-server](https://github.com/Infineon/http-server)       | Provides communication functions for an HTTP server.         | [ReadMe](https://github.com/Infineon/http-server/blob/master/README.md) |
+| [http-server](https://github.com/Infineon/http-server)       | Provides communication functions for an HTTP server.         | [readme](https://github.com/Infineon/http-server/blob/master/README.md) |
 | [connectivity-utilities](https://github.com/Infineon/connectivity-utilities) | General purpose middleware connectivity utilities, for instance a linked_list or a json_parser. This library is supported on both AnyCloud and Mbed OS. | See the code for each.                                       |
 | Mbed OS HAL                                                  | Mbed’s hardware abstraction layer. Support for Cypress targets is available from the Mbed OS archive. This HAL is part of the Mbed ecosystem and not provided directly by Cypress. | [Mbed API documentation](https://os.mbed.com/docs/mbed-os/v5.13/apis/index.html) |
 | Arm Mbed TLS                                                 | A library to include cryptographic and SSL/TLS capabilities in an embedded application. It is part of the Mbed OS ecosystem and not provided by Cypress. | [API reference](https://tls.mbed.org/api/)                   |
