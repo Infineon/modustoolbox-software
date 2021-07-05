@@ -1,5 +1,0 @@
-﻿# Temporary Device credentials
-
-If your product does not have a unique identifier on the device, or the unique identifier may not be known until after the product is manufactured, you can set up your device to initially use a temporary credential. All your devices will start with the same temporary credential. As soon as the device reaches the Cirrent cloud, the device and cloud negotiate a new permanent credential. The temporary credential process is outlined  [here](starting-ca-using-temporary-credentials).
-
-If your product requires the dynamic generation of a permanent credential from a temporary credential, be aware that you are responsible for the safekeeping of the provisioning key. Cirrent will grant a permanent credential to any device that connects with a temporary credentials signed with your provisioning key. If the provisioning key gets compromised, unauthorized devices may get permanent credentials and start using the Cirrent service. You'll be responsible for any costs incurred by these devices, as Cirrent has no way to distinguish valid from invalid devices, if they are both using the same provisioning key.
