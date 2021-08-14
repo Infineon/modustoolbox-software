@@ -1,0 +1,20 @@
+site_name: Cirrent
+site_url: https://www.cirrent.com/
+site_description: Project documentation with Markdown.
+site_author: Cirrent Team
+
+#repo_url: https://github.com/mkdocs/mkdocs/
+edit_uri: ""
+
+theme:
+    name: mkdocs
+    locale: en
+    #analytics: {gtag: 'G-274394082'}
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+
+
+copyright: Copyright &copy; 2021 Cirrent.
