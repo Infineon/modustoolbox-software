@@ -8,8 +8,7 @@ This page helps you identify and find the ModusToolbox™ resources available. T
 - [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
 - [Board support packages](#board-support-packages)
 - [Libraries](#libraries)
-- [Training material] (https://github.com/Infineon/training-modustoolbox) (link to separate page)
-
+- [Training material](https://github.com/Infineon/training-modustoolbox) (link to separate page)
 
 ## Tools
 
