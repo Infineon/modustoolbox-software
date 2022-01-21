@@ -101,9 +101,9 @@ PSoC™ 4 and PMG BSPs add the following libraries as appropriate for the kit/de
 
 | Library                                                      | Details                                                      | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/api_reference_manual/html/index.html) |
-| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/api_reference_manual/html/index.html) |
-| [recipe-make-cat2](https://github.com/Infineon/recipe-make-cat2) | PSoC™ 4 Make build recipe provides the make files and scripts for building and programming PSoC™ 4 applications. | [API reference](https://infineon.github.io/recipe-make-cat2/api_reference_manual/html/index.html) |
+| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the Cypress defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
+| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
+| [recipe-make-cat2](https://github.com/Infineon/recipe-make-cat2) | PSoC™ 4 Make build recipe provides the make files and scripts for building and programming PSoC™ 4 applications. | [API reference](https://github.com/Infineon/recipe-make-cat2/blob/master/README.md) |
 
 ##### XMC base libraries
 
