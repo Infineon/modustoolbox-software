@@ -111,7 +111,7 @@ An XMC MCU typically adds the following libraries, as appropriate for the kit/de
 
 | Library                                                      | Details                                                      | Docs                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-hal-cat3/html/index.html) |
+| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html) |
 | [recipe-make-cat3](https://github.com/Infineon/recipe-make-cat3) | XMC Make build recipe provides the make files and scripts for building and programming XMC applications. | Repository [readme file](https://github.com/Infineon/recipe-make-cat3/blob/master/README.md) |
 
 
