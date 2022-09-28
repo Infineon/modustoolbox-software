@@ -14,7 +14,7 @@ This page helps you identify and find the ModusToolbox™ resources available. T
 
 The ModusToolbox™ tools package installer (https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software) provides various multi-platform development tools to help you work in your preferred flow. The installer includes a make-based build system, Eclipse IDE, configurators, stand-alone project creator and library manager, as well as support for using other IDEs, generating code, compiling, programming, and debugging. Refer to the [ModusToolbox™ tools package user guide](https://www.cypress.com/ModusToolboxUserGuide) for complete details.
 
-Some tools are available separately on GitHub:
+Some tools are available separately on GitHub, including:
 
 | Tool | Description | Docs |
 | ---- | ----------- | ---- |
