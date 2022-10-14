@@ -1,11 +1,5 @@
 # ModusToolbox™ software
 
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-
 ModusToolbox™ software is a modern, extensible development environment supporting a wide range of Infineon microcontroller devices. It provides a flexible set of tools and a diverse, high-quality collection of application-focused software. These include configuration tools, low-level drivers, libraries, and operating system support, most of which are compatible with Linux, macOS, and Windows-hosted environments. 
 
 This page helps you identify and find the ModusToolbox™ resources available. These resources are grouped in the following top-level categories:
