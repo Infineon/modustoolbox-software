@@ -51,6 +51,39 @@ There are many other parts of ModusToolbox™ software that are provided as libr
 
 The following tables provide brief descriptions about the libraries available and links to the various repos. Refer to the [ModusToolbox™ run-time software reference guide](https://www.infineon.com/ModusToolboxRuntimeSoftwareReferenceGuide) for more details about how these libraries are used in the ModusToolbox™ ecosystem.
 
+<details><summary><b>Device families</b></summary>
+<br>
+<b>CAT1: PSoC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
+| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
+| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT2: PSoC™ 4, PMG</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
+| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT3: XMC1000, XMC4000</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT4: CYW43907, CYW54907</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-cat4](https://github.com/Infineon/mtb-hal-cat4) | Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the CYW43907/CYW54907 resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat4/html/index.html) |
+</details>
+
 <details><summary><b>Drivers and Core Middleware</b></summary>
 
 | Library  | Details  | Docs  |
@@ -74,32 +107,6 @@ The following tables provide brief descriptions about the libraries available an
 | [retarget-io](https://github.com/Infineon/retarget-io)   | Provides a board-independent API to retarget text input/output to a serial UART on a kit | [API reference](https://infineon.github.io/retarget-io/html/index.html) |
 | [serial-flash](https://github.com/Infineon/serial-flash) | Provides a board-independent API to use the serial flash on a kit | [API reference](https://infineon.github.io/serial-flash/html/index.html) |
 
-<b>CAT1: PSoC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
-| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
-| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
-
-<b>CAT2: PSoC™ 4, PMG</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
-| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
-
-<b>CAT3: XMC1000, XMC4000</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html) |
-
-<b>CAT4: CYW43907, CYW54907</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-hal-cat4](https://github.com/Infineon/mtb-hal-cat4) | Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the CYW43907/CYW54907 resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat4/html/index.html) |
 
 </details>
 
