@@ -28,7 +28,7 @@ For any ModusToolbox™ application, you must specify a Board Support Package (B
 
 BSPs are aligned with our kits; they provide files for basic device functionality. A BSP typically has a *design.modus* file that configures clocks and other board-specific capabilities. That file is used by the ModusToolbox™ configurators. A BSP also includes the required device support code for the device on the board. You can modify the configuration to suit your application. 
 
-We release BSPs independently of ModusToolbox™ software as a whole. This [search link](https://github.com/Infineon?q=TARGET_) finds all currently available BSPs on the GitHub site.
+We release BSPs independently of the Tools package. This [search link](https://github.com/Infineon?q=TARGET_) finds all currently available BSPs on the GitHub site. Use the Project Creator available in the ModusToolbox Base Tools package to create the projects with the specific BSPs (get from [main website](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software)).
 
 The search results include links to each repository, named TARGET_*kitnumber*. For example, you will find links to repositories like [TARGET_CY8CPROTO-062-4343W](https://github.com/Infineon/TARGET_CY8CPROTO-062-4343W). Each repository provides links to relevant documentation. The following links use this BSP as an example. Each BSP has its own documentation.
 
