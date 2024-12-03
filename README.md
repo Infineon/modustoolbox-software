@@ -4,23 +4,19 @@ ModusToolbox™ software is a modern, extensible development environment support
 
 This page helps you identify and find the ModusToolbox™ resources available. These resources are grouped in the following top-level categories:
 
-- [Tools](#tools)
-- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
+- [Training material](#training-material)
+- [Tools](#tools-packages)
 - [Board support packages](#board-support-packages)
 - [Libraries](#libraries)
-- [Training material](https://github.com/Infineon/training-modustoolbox) (link to separate page)
+- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
 
-## Tools
+## Training material
 
-The ModusToolbox™ tools package installer (https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software) provides various multi-platform development tools to help you work in your preferred flow. The installer includes a make-based build system, Eclipse IDE, configurators, stand-alone project creator and library manager, as well as support for using other IDEs, generating code, compiling, programming, and debugging. Refer to the [ModusToolbox™ tools package user guide](https://www.Infineon.com/ModusToolboxUserGuide) for complete details.
+Infineon offers several levels of training classes for different devices and different focuses. Each class provides examples and helps you understand the concepts faster. All the material is located on GitHub here: [link to separate page](https://github.com/Infineon/training-modustoolbox)
 
-Some tools are available separately on GitHub, including:
+## Tools packages
 
-| Tool | Description | Docs |
-| ---- | ----------- | ---- |
-| [Firmware-loader](https://github.com/Infineon/Firmware-loader) | A command-line tool to update KitProg low-level program/debug communication firmware on our kits. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [readme](https://github.com/Infineon/Firmware-loader/blob/master/README.md) |
-| ["Secure Boot" SDK](https://github.com/Infineon/cysecuretools) | This SDK includes all required libraries, tools, and sample code to provision and develop applications for PSoC™ 64 "Secure Boot" MCUs. | [User guide](https://www.cypress.com/documentation/software-and-drivers/psoc-64-secure-mcu-secure-boot-sdk-user-guide) |
-
+The ModusToolbox™ ecosystem offers a variety of tools packages to install through our Setup program. <b>Base Packages</b> provide fundamental software tools to create and develop applications. There are also Additional Packages that include Programming Tools, Machine Learning, and Industrial MCU support. The Setup program is available from our [main website](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software), and it is available for Windows, Linux, and macOS. 
 
 ## Board support packages
 
@@ -42,14 +38,46 @@ The information provided varies, but typically includes one or more of:
 - the [BSP overview](https://infineon.github.io/TARGET_CY8CPROTO-062-4343W/html/md_source_bsps_mt_bsp_user_guide.html)
 - a link to the [associated kit page](https://www.cypress.com/documentation/development-kitsboards/psoc-6-wi-fi-bt-prototyping-kit-cy8cproto-062-4343w) with kit-specific documentation
 
-A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ tools package user guide](http://www.Infineon.com/ModusToolboxUserGuide) chapter on BSPs for how they work and how to create your own for a custom board.
-
+A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ BSP Assistant user guide](http://www.Infineon.com/ModusToolboxBSPAssistant) for how they work and how to create your own for a custom board.
 
 ## Libraries
 
-There are many other parts of ModusToolbox™ software that are provided as libraries. In general, you should not need to use these libraries directly. When you create a ModusToolbox™ application, the system downloads all the libraries your application needs to take full advantage of the various features of our devices. A ModusToolbox™ application can use different libraries based on the Active BSP. If you wish to add various libraries to your application, use the Library Manager tool.  
+There are many other parts of ModusToolbox™ software that are provided as libraries. <b>You do not need to use these libraries directly</b>. When you create a ModusToolbox™ application, the system downloads all the libraries your application needs to take full advantage of the various features of our devices. A ModusToolbox™ application can use different libraries based on the Active BSP. If you wish to add various libraries to your application, use the Library Manager tool.  
 
 The following tables provide brief descriptions about the libraries available and links to the various repos. Refer to the [ModusToolbox™ run-time software reference guide](https://www.infineon.com/ModusToolboxRuntimeSoftwareReferenceGuide) for more details about how these libraries are used in the ModusToolbox™ ecosystem.
+
+<details><summary><b>Device families</b></summary>
+<br>
+<b>CAT1: PSoC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
+| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
+| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT2: PSoC™ 4, PMG</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
+| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT3: XMC1000, XMC4000</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html) |
+
+<br>
+<b>CAT4: CYW43907, CYW54907</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-cat4](https://github.com/Infineon/mtb-hal-cat4) | Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the CYW43907/CYW54907 resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat4/html/index.html) |
+</details>
 
 <details><summary><b>Drivers and Core Middleware</b></summary>
 
@@ -74,32 +102,6 @@ The following tables provide brief descriptions about the libraries available an
 | [retarget-io](https://github.com/Infineon/retarget-io)   | Provides a board-independent API to retarget text input/output to a serial UART on a kit | [API reference](https://infineon.github.io/retarget-io/html/index.html) |
 | [serial-flash](https://github.com/Infineon/serial-flash) | Provides a board-independent API to use the serial flash on a kit | [API reference](https://infineon.github.io/serial-flash/html/index.html) |
 
-<b>CAT1: PSoC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
-| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
-| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
-
-<b>CAT2: PSoC™ 4, PMG</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
-| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
-
-<b>CAT3: XMC1000, XMC4000</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-xmclib-cat3](https://github.com/Infineon/mtb-xmclib-cat3) | The XMC peripheral library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals. | [API reference](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html) |
-
-<b>CAT4: CYW43907, CYW54907</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-hal-cat4](https://github.com/Infineon/mtb-hal-cat4) | Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the CYW43907/CYW54907 resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat4/html/index.html) |
 
 </details>
 
