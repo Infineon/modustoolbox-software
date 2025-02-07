@@ -4,23 +4,19 @@ ModusToolbox™ software is a modern, extensible development environment support
 
 This page helps you identify and find the ModusToolbox™ resources available. These resources are grouped in the following top-level categories:
 
-- [Tools](#tools)
-- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
+- [Training material](#training-material)
+- [Tools](#tools-packages)
 - [Board support packages](#board-support-packages)
 - [Libraries](#libraries)
-- [Training material](https://github.com/Infineon/training-modustoolbox) (link to separate page)
+- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
 
-## Tools
+## Training material
 
-The ModusToolbox™ tools package installer (https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software) provides various multi-platform development tools to help you work in your preferred flow. The installer includes a make-based build system, Eclipse IDE, configurators, stand-alone project creator and library manager, as well as support for using other IDEs, generating code, compiling, programming, and debugging. Refer to the [ModusToolbox™ tools package user guide](https://www.Infineon.com/ModusToolboxUserGuide) for complete details.
+Infineon offers several levels of training classes for different devices and different focuses. Each class provides examples and helps you understand the concepts faster. All the material is located on GitHub here: [link to separate page](https://github.com/Infineon/training-modustoolbox)
 
-Some tools are available separately on GitHub, including:
+## Tools packages
 
-| Tool | Description | Docs |
-| ---- | ----------- | ---- |
-| [Firmware-loader](https://github.com/Infineon/Firmware-loader) | A command-line tool to update KitProg low-level program/debug communication firmware on our kits. Installed with ModusToolbox™ tools package, newer version may be available on GitHub. | [readme](https://github.com/Infineon/Firmware-loader/blob/master/README.md) |
-| ["Secure Boot" SDK](https://github.com/Infineon/cysecuretools) | This SDK includes all required libraries, tools, and sample code to provision and develop applications for PSoC™ 64 "Secure Boot" MCUs. | [User guide](https://www.cypress.com/documentation/software-and-drivers/psoc-64-secure-mcu-secure-boot-sdk-user-guide) |
-
+The ModusToolbox™ ecosystem offers a variety of tools packages to install through our Setup program. <b>Base Packages</b> provide fundamental software tools to create and develop applications. There are also Additional Packages that include Programming Tools, Machine Learning, and Industrial MCU support. The Setup program is available from our [main website](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software), and it is available for Windows, Linux, and macOS. 
 
 ## Board support packages
 
@@ -32,7 +28,7 @@ For any ModusToolbox™ application, you must specify a Board Support Package (B
 
 BSPs are aligned with our kits; they provide files for basic device functionality. A BSP typically has a *design.modus* file that configures clocks and other board-specific capabilities. That file is used by the ModusToolbox™ configurators. A BSP also includes the required device support code for the device on the board. You can modify the configuration to suit your application. 
 
-We release BSPs independently of ModusToolbox™ software as a whole. This [search link](https://github.com/Infineon?q=TARGET_) finds all currently available BSPs on the GitHub site.
+We release BSPs independently of the Tools package. This [search link](https://github.com/Infineon?q=TARGET_) finds all currently available BSPs on the GitHub site. Use the Project Creator available in the ModusToolbox Base Tools package to create the projects with the specific BSPs (get from [main website](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software)).
 
 The search results include links to each repository, named TARGET_*kitnumber*. For example, you will find links to repositories like [TARGET_CY8CPROTO-062-4343W](https://github.com/Infineon/TARGET_CY8CPROTO-062-4343W). Each repository provides links to relevant documentation. The following links use this BSP as an example. Each BSP has its own documentation.
 
@@ -42,12 +38,11 @@ The information provided varies, but typically includes one or more of:
 - the [BSP overview](https://infineon.github.io/TARGET_CY8CPROTO-062-4343W/html/md_source_bsps_mt_bsp_user_guide.html)
 - a link to the [associated kit page](https://www.cypress.com/documentation/development-kitsboards/psoc-6-wi-fi-bt-prototyping-kit-cy8cproto-062-4343w) with kit-specific documentation
 
-A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ tools package user guide](http://www.Infineon.com/ModusToolboxUserGuide) chapter on BSPs for how they work and how to create your own for a custom board.
-
+A BSP is specific to a board and the device on that board. For custom development, you can create or modify a BSP for your device. See the [ModusToolbox™ BSP Assistant user guide](http://www.Infineon.com/ModusToolboxBSPAssistant) for how they work and how to create your own for a custom board.
 
 ## Libraries
 
-There are many other parts of ModusToolbox™ software that are provided as libraries. In general, you should not need to use these libraries directly. When you create a ModusToolbox™ application, the system downloads all the libraries your application needs to take full advantage of the various features of our devices. A ModusToolbox™ application can use different libraries based on the Active BSP. If you wish to add various libraries to your application, use the Library Manager tool.  
+There are many other parts of ModusToolbox™ software that are provided as libraries. <b>You do not need to use these libraries directly</b>. When you create a ModusToolbox™ application, the system downloads all the libraries your application needs to take full advantage of the various features of our devices. A ModusToolbox™ application can use different libraries based on the Active BSP. If you wish to add various libraries to your application, use the Library Manager tool.  
 
 The following tables provide brief descriptions about the libraries available and links to the various repos. Refer to the [ModusToolbox™ run-time software reference guide](https://www.infineon.com/ModusToolboxRuntimeSoftwareReferenceGuide) for more details about how these libraries are used in the ModusToolbox™ ecosystem.
 
