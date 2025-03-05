@@ -101,6 +101,7 @@ The following tables provide brief descriptions about the libraries available an
 | [clib-support](https://github.com/Infineon/clib-support) | The CLib FreeRTOS support library provides the necessary hooks to make C library functions such as malloc and free thread safe. | [API reference](https://infineon.github.io/clib-support/html/index.html) |
 | [retarget-io](https://github.com/Infineon/retarget-io)   | Provides a board-independent API to retarget text input/output to a serial UART on a kit | [API reference](https://infineon.github.io/retarget-io/html/index.html) |
 | [serial-flash](https://github.com/Infineon/serial-flash) | Provides a board-independent API to use the serial flash on a kit | [API reference](https://infineon.github.io/serial-flash/html/index.html) |
+| [mtb-stl](https://github.com/Infineon/mtb-stl) | Provides functional safety APIs to implement overall safety of a system that depends on automatic protection suitable for using in industrial environments and home appliances. | [README](https://github.com/Infineon/mtb-stl/blob/master/README.md) |
 
 </details>
 
