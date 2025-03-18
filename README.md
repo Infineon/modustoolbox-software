@@ -2,10 +2,11 @@
 
 ModusToolbox™ software is a modern, extensible development environment supporting a wide range of Infineon microcontroller devices. It provides a flexible set of tools and a diverse, high-quality collection of application-focused software. These include configuration tools, low-level drivers, libraries, and operating system support, most of which are compatible with Linux, macOS, and Windows-hosted environments. 
 
-This page helps you identify and find the ModusToolbox™ resources available. These resources are grouped in the following top-level categories:
+To get started, download and install the [ModusToolbox™ Setup program](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup) for your operating system, and then you can install Base Packages to provide the tools package and dependencies to create and develop applications. There are also Additional Packages that include Machine Learning  and Industrial MCU support.
+
+The following shows the resources available in the ModusToolbox™ ecosystem. These resources are grouped in the following top-level categories:
 
 - [Training material](#training-material)
-- [Tools](#tools-packages)
 - [Board support packages](#board-support-packages)
 - [Libraries](#libraries)
 - [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
@@ -13,10 +14,6 @@ This page helps you identify and find the ModusToolbox™ resources available. T
 ## Training material
 
 Infineon offers several levels of training classes for different devices and different focuses. Each class provides examples and helps you understand the concepts faster. All the material is located on GitHub here: [link to separate page](https://github.com/Infineon/training-modustoolbox)
-
-## Tools packages
-
-The ModusToolbox™ ecosystem offers a variety of tools packages to install through our Setup program. <b>Base Packages</b> provide fundamental software tools to create and develop applications. There are also Additional Packages that include Programming Tools, Machine Learning, and Industrial MCU support. The Setup program is available from our [main website](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software), and it is available for Windows, Linux, and macOS. 
 
 ## Board support packages
 
