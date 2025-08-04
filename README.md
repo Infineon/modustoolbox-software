@@ -45,20 +45,20 @@ The following tables provide brief descriptions about the libraries available an
 
 <details><summary><b>Device families</b></summary>
 <br>
-<b>CAT1: PSoC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
+<b>CAT1: PSOC™ 6, CYW20829, TRAVEO™ II, XMC7000, PSOC™ Control</b>
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
 | [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
-| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSoC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSoC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
+| [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSOC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSOC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
 | [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
 
 <br>
-<b>CAT2: PSoC™ 4, PMG</b>
+<b>CAT2: PSOC™ 4, PMG</b>
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
-| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSoC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
+| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSOC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
 | [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
 
 <br>
@@ -82,7 +82,7 @@ The following tables provide brief descriptions about the libraries available an
 | -------- | -------- | ----- |
 | [core-lib](https://github.com/Infineon/core-lib)   | Header files that declare basic types and utilities (such as result types or ASSERT) that can be used by multiple BSPs. | [API reference](https://infineon.github.io/core-lib/html/index.html) |
 | [cmsis](https://github.com/ARM-software/CMSIS_5) | used by application or middleware to link CMSIS Core headers | [README](https://github.com/ARM-software/CMSIS_5#readme) |
-| [freertos](https://github.com/Infineon/freertos)         | FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU. | [FreeRTOS webpage](http://www.freertos.org/a00106.html)     |
+| [freertos](https://github.com/Infineon/freertos)         | FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSOC™ 6 MCU. | [FreeRTOS webpage](http://www.freertos.org/a00106.html)     |
 | [freertos-posix](https://github.com/Infineon/freertos-posix) | The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. freertos-posix implements a small subset of the POSIX threading API. | [POSIX API Reference](http://pubs.opengroup.org/onlinepubs/9699919799/) |
 | [command console](https://github.com/Infineon/command-console) | Provides a framework to add command console support to the application (or) product use cases.  | [API reference](https://infineon.github.io/command-console/api_reference_manual/html/index.html)
 | [csdadc](https://github.com/Infineon/csdadc)     | Enables the ADC functionality of the CAPSENSE™ Sigma-Delta (CSD) hardware block. Useful for devices that do not include other ADC/IDAC options. | [API reference](https://infineon.github.io/csdadc/csdadc_api_reference_manual/html/index.html) |
@@ -107,16 +107,16 @@ The following tables provide brief descriptions about the libraries available an
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
 | [aws-iot-device-sdk-embedded-C](https://github.com/aws/aws-iot-device-sdk-embedded-C)  | Collection of C source files under the MIT open source license that can be used in embedded applications to securely connect IoT devices to AWS IoT Core.  | [README.md](https://github.com/aws/aws-iot-device-sdk-embedded-C/blob/main/README.md)  |
-| [aws-iot-device-sdk-port](https://github.com/Infineon/aws-iot-device-sdk-port)  | Contains the port layer implementation for the MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on PSoC™ 6 MCU based platforms with network connectivity.  | [API Reference](https://infineon.github.io/aws-iot-device-sdk-port/api_reference_manual/html/index.html) |
-| [azure-c-sdk-port](https://github.com/Infineon/azure-c-sdk-port)  | Implements the port layer for the Azure SDK for Embedded C to work on PSoC™ 6 MCU based platforms with network connectivity.  | [API reference](https://infineon.github.io/azure-c-sdk-port/api_reference_manual/html/index.html)  |
+| [aws-iot-device-sdk-port](https://github.com/Infineon/aws-iot-device-sdk-port)  | Contains the port layer implementation for the MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on PSOC™ 6 MCU based platforms with network connectivity.  | [API Reference](https://infineon.github.io/aws-iot-device-sdk-port/api_reference_manual/html/index.html) |
+| [azure-c-sdk-port](https://github.com/Infineon/azure-c-sdk-port)  | Implements the port layer for the Azure SDK for Embedded C to work on PSOC™ 6 MCU based platforms with network connectivity.  | [API reference](https://infineon.github.io/azure-c-sdk-port/api_reference_manual/html/index.html)  |
 | [azure-sdk-for-c](https://github.com/Azure/azure-sdk-for-c) | Allows small embedded (IoT) devices to communicate with Azure services. | [README](https://github.com/Azure/azure-sdk-for-c#readme)  |
-| [http-client](https://github.com/Infineon/http-client)  | Provides the HTTP Client implementation that can work on the PSoC™ 6 MCU platforms with Wi-Fi connectivity.   | [API reference](https://infineon.github.io/http-client/api_reference_manual/html/index.html)  |
+| [http-client](https://github.com/Infineon/http-client)  | Provides the HTTP Client implementation that can work on the PSOC™ 6 MCU platforms with Wi-Fi connectivity.   | [API reference](https://infineon.github.io/http-client/api_reference_manual/html/index.html)  |
 | [http-server](https://github.com/Infineon/http-server)  | Provides communication functions for an HTTP server. | [README](https://github.com/Infineon/http-server/blob/master/README.md) |
-| [lpa](https://github.com/Infineon/lpa) | The Low Power Assistant (LPA) is a library and associated settings in the ModusToolbox™ Device Configurator that allow you to configure a PSoC 6 Host and WLAN (Wi-Fi / BT Radio) device for optimized low-power operation. | [API reference](https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html) |
+| [lpa](https://github.com/Infineon/lpa) | The Low Power Assistant (LPA) is a library and associated settings in the ModusToolbox™ Device Configurator that allow you to configure a PSOC™ 6 Host and WLAN (Wi-Fi / BT Radio) device for optimized low-power operation. | [API reference](https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html) |
 | [mqtt](https://github.com/Infineon/mqtt)  | This library includes the open source AWS IoT device SDK embedded C library plus some glue to ensure seamless MQTT cloud connectivity. | [API reference](https://infineon.github.io/mqtt/api_reference_manual/html/index.html) |
 | [secure-sockets](https://github.com/Infineon/secure-sockets) | The Secure Sockets library eases application development by exposing a socket like interface for both secured and non-secured socket communication. | [API reference](https://infineon.github.io/secure-sockets/api_reference_manual/html/index.html) |
 | [connectivity-utilities](https://github.com/Infineon/connectivity-utilities) | General purpose middleware connectivity utilities, for instance a linked_list or a json_parser. | [API reference](https://infineon.github.io/connectivity-utilities/api_reference_manual/html/index.html) |
-| [ota-update](https://github.com/infineon/ota-update/)| Provides support for Over-The-Air update of the application code running on a PSoC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip, using Wi-Fi or Bluetooth®. | [API reference](https://infineon.github.io/ota-update/api_reference_manual/html/index.html) |
+| [ota-update](https://github.com/infineon/ota-update/)| Provides support for Over-The-Air update of the application code running on a PSOC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip, using Wi-Fi or Bluetooth®. | [API reference](https://infineon.github.io/ota-update/api_reference_manual/html/index.html) |
 | [netxduo](https://github.com/azure-rtos/netxduo) | Advanced, industrial-grade TCP/IP network stack designed specifically for deeply embedded real-time and IoT applications. | [README](https://github.com/azure-rtos/netxduo#readme) |
 | [memfault-firmware-sdk](https://github.com/memfault/memfault-firmware-sdk) | An SDK responsible for working with Memfault device monitoring, debugging and OTA management platform. | [External README](https://github.com/memfault/memfault-firmware-sdk/blob/master/README.md) |
 | [golioth-firmware-sdk](https://github.com/golioth/golioth-firmware-sdk) | A software development kit for connecting embedded devices to the Golioth IoT Cloud | [External README](https://github.com/golioth/golioth-firmware-sdk/blob/main/README.md) |
@@ -132,7 +132,7 @@ The following tables provide brief descriptions about the libraries available an
 | [wifi-mw-core](https://github.com/Infineon/wifi-mw-core)     | The Wi-Fi Middleware Core library bundles the core libraries that any Wi-Fi application needs. | [API reference](https://infineon.github.io/wifi-mw-core/api_reference_manual/html/index.html) |
 | [wifi-host-driver](https://github.com/Infineon/wifi-host-driver) | The Wi-Fi Host Driver (WHD) is an independent, embedded driver that provides a set of APIs to interact with our WLAN chips. | [API reference](https://infineon.github.io/wifi-host-driver/API/index.html) |
 | [wifi-connection-manager](https://github.com/Infineon/wifi-connection-manager) | The Wi-Fi Connection Manager (WCM) includes the wifi-mw-core library by default and provides easy to use APIs to establish and monitor Wi-Fi connections on our devices that support Wi-Fi connectivity. | [API reference](https://infineon.github.io/wifi-connection-manager/api_reference_manual/html/index.html) |
-| [smartcoex](https://github.com/Infineon/smartcoex) |Provides an API to configure the coex parameters for WLAN and Bluetooth® Low Energy on PSoC™ 6 MCU based platforms with Wi-Fi & Bluetooth® combo chip. | [API reference](https://infineon.github.io/smartcoex/api_reference_manual/html/index.html)  |
+| [smartcoex](https://github.com/Infineon/smartcoex) |Provides an API to configure the coex parameters for WLAN and Bluetooth® Low Energy on PSOC™ 6 MCU based platforms with Wi-Fi & Bluetooth® combo chip. | [API reference](https://infineon.github.io/smartcoex/api_reference_manual/html/index.html)  |
 | [enterprise-security](https://github.com/Infineon/enterprise-security) | This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) used in enterprise Wi-Fi networks | [API reference](https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html) |
 | [wpa3-external-supplicant](https://github.com/Infineon/wpa3-external-supplicant) | The WPA3 External Supplicant supports WPA3 SAE authentication using HnP (Hunting and Pecking Method) using RFC, as well as H2E (Hash to Element Method) using RFC following 802.11 spec 2016. | [README](https://github.com/Infineon/wpa3-external-supplicant/blob/master/README.md) |
 
@@ -175,7 +175,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | [trusted-firmware-m](https://github.com/Infineon/trusted-firmware-m) | Provides secure world software for Arm Cortex-M processors.  | [README](https://github.com/Infineon/trusted-firmware-m#readme)  |
 | [dfu](https://github.com/Infineon/dfu)  | The Device Firmware Update (DFU) library provides an API for updating firmware images. | [API reference](https://infineon.github.io/dfu/dfu_sdk_api_reference_manual/html/index.html) |
 | [Arm Mbed TLS](https://github.com/ARMmbed/mbedtls) | A library to include cryptographic and SSL/TLS capabilities in an embedded application. | [API reference](https://tls.mbed.org/api/) |
-| [cy-mbedtls-acceleration](https://github.com/Infineon/cy-mbedtls-acceleration) | We provide a library that extends MbedTLS to enable hardware-accelerated encryption on PSoC™ 6 MCUs. | [README](https://github.com/Infineon/cy-mbedtls-acceleration#readme) |
+| [cy-mbedtls-acceleration](https://github.com/Infineon/cy-mbedtls-acceleration) | We provide a library that extends MbedTLS to enable hardware-accelerated encryption on PSOC™ 6 MCUs. | [README](https://github.com/Infineon/cy-mbedtls-acceleration#readme) |
 | [MCUBoot](https://github.com/mcu-tools/mcuboot) | Secure bootloader for 32-bits microcontrollers.  | [README](https://github.com/mcu-tools/mcuboot#readme) |
 
 </details>
@@ -186,7 +186,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | -------- | -------- | ----- |
 | [ml-inference](https://github.com/Infineon/ml-inference) | A set of pre-compiled libraries which provide easy to use API's to run ML workloads on embedded platforms.  | [API reference](https://infineon.github.io/ml-inference/html/index.html) |
 | [ml-middleware](https://github.com/Infineon/ml-middleware) | Helper functions to simplify integration of ML models. | [API reference](https://infineon.github.io/ml-middleware/html/index.html) |
-| [ml-tflite-micro](https://github.com/Infineon/ml-tflite-micro) | A pre-configured TensorFlow tflite-micro runtime library for the Infineon PSoC6™ platform. | [README](https://github.com/Infineon/ml-tflite-micro#readme) |
+| [ml-tflite-micro](https://github.com/Infineon/ml-tflite-micro) | A pre-configured TensorFlow tflite-micro runtime library for the Infineon PSOC6™ platform. | [README](https://github.com/Infineon/ml-tflite-micro#readme) |
 
 </details>
 
