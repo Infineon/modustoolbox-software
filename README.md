@@ -54,7 +54,8 @@ PSOC™ Edge device support libraries provide all nessesary device specific comp
 | [mtb-dsl-pse8xxgp](https://github.com/Infineon/mtb-dsl-pse8xxgp/blob/master/README.md) | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgp/html/index.html) |
 
 <br>
-PSOC™ Control
+<b>PSOC™ Control</b>
+
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
 | [mtb-hal-pc3](https://github.com/Infineon/mtb-hal-psc3)  |  Hardware Abstraction Layer for PSOC™ Control. | [API reference](https://github.com/Infineon/https://infineon.github.io/mtb-hal-psc3/html/index.html)  |
@@ -234,4 +235,5 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | [CAPSENSE™](https://github.com/Infineon/capsense) | Capacitive sensing can be used in a variety of applications and products where conventional mechanical buttons can be replaced with sleek human interfaces to transform the way users interact with electronic systems. | [API reference](https://infineon.github.io/capsense/capsense_api_reference_manual/html/index.html) |
 
 </details>
+
 
