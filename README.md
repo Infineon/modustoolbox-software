@@ -45,21 +45,38 @@ The following tables provide brief descriptions about the libraries available an
 
 <details><summary><b>Device families</b></summary>
 <br>
-<b>CAT1: PSOC™ 6, CYW20829, TRAVEO™ II, XMC7000, PSOC™ Control</b>
+<b>PSOC™ Edge</b>
+PSOC™ Edge device support libraries provide all nessesary device specific components to be used during software development for the PSE8xxGO/PSE8xxGP family of devices:
+
+| Library  | Docs  |
+| -------- | ----- |
+| [mtb-dsl-pse8xxgo](https://github.com/Infineon/mtb-dsl-pse8xxgo/blob/master/README.md) | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgo/html/index.html) |
+| [mtb-dsl-pse8xxgp](https://github.com/Infineon/mtb-dsl-pse8xxgp/blob/master/README.md) | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgp/html/index.html) |
+
+<br>
+PSOC™ Control
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-pc3](https://github.com/Infineon/mtb-hal-psc3) | Hardware Abstraction Layer for PSOC™ Control. | [API reference](https://github.com/Infineon/https://infineon.github.io/mtb-hal-psc3/html/index.html) |
+| [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
+| [recipe-make-cat1b](https://github.com/Infineon/recipe-make-cat1b) | This repo provides the build recipe make files and scripts for building and programming PSOC™ Control C3 applications. | [Release notes](https://github.com/Infineon/recipe-make-cat1b/blob/master/RELEASE.md) |
+
+<br>
+<b>PSOC™ 4, PMG</b>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
+| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSOC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
+| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
+
+<br>
+<b>PSOC™ 6, CYW20829, TRAVEO™ II, XMC7000</b>
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
 | [cat1cm0p](https://github.com/Infineon/cat1cm0p) | Arm® Cortex®-M0+ prebuilt images enabling flash write services and Bluetooth® Low Energy event handling. | [README](https://github.com/Infineon/cat1cm0p#readme) |
 | [mtb-hal-cat1](https://github.com/Infineon/mtb-hal-cat1)  | The PSOC™ 6 Hardware Abstraction Layer package provides a set of APIs to initialize, configure, and use the PSOC™ 6 MCU resources using our defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat1/html/index.html) |
 | [mtb-pdl-cat1](https://github.com/Infineon/mtb-pdl-cat1)  | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html) |
-
-<br>
-<b>CAT2: PSOC™ 4, PMG</b>
-
-| Library  | Details  | Docs  |
-| -------- | -------- | ----- |
-| [mtb-hal-cat2](https://github.com/Infineon/mtb-hal-cat2)     | PSOC™ 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC™ 4 MCU resources using the defined Hardware Abstraction Layer. | [API reference](https://infineon.github.io/mtb-hal-cat2/html/index.html) |
-| [mtb-pdl-cat2](https://github.com/Infineon/mtb-pdl-cat2)     | The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package. | [API reference](https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html) |
 
 <br>
 <b>CAT3: XMC1000, XMC4000</b>
