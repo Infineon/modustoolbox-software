@@ -49,8 +49,7 @@ The following tables provide brief descriptions about the libraries available an
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
-| [mtb-dsl-pse8xxgo](https://github.com/Infineon/mtb-dsl-pse8xxgo/blob/master/README.md) | PSOC™ Edge device support libraries provide all nessesary device specific components to be used during software development for the PSE8xxGO/PSE8xxGP devices. See [PSOC™ Edge page](https://www.infineon.com/products/microcontroller/32-bit-psoc-arm-cortex/32-bit-psoc-edge-arm) for details. | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgo/html/index.html) |
-| [mtb-dsl-pse8xxgp](https://github.com/Infineon/mtb-dsl-pse8xxgp/blob/master/README.md) |^  | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgp/html/index.html) |
+| [mtb-dsl-pse8xxgo](https://github.com/Infineon/mtb-dsl-pse8xxgo/blob/master/README.md) <br> [mtb-dsl-pse8xxgp](https://github.com/Infineon/mtb-dsl-pse8xxgp/blob/master/README.md) | PSOC™ Edge device support libraries provide all nessesary device specific components to be used during software development for the PSE8xxGO/PSE8xxGP devices. See [PSOC™ Edge page](https://www.infineon.com/products/microcontroller/32-bit-psoc-arm-cortex/32-bit-psoc-edge-arm) for details. | [API reference](https://infineon.github.io/mtb-dsl-pse8xxgo/html/index.html) <br> [API reference](https://infineon.github.io/mtb-dsl-pse8xxgp/html/index.html) |
 
 <br>
 <b>PSOC™ Control</b>
@@ -234,6 +233,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | [CAPSENSE™](https://github.com/Infineon/capsense) | Capacitive sensing can be used in a variety of applications and products where conventional mechanical buttons can be replaced with sleek human interfaces to transform the way users interact with electronic systems. | [API reference](https://infineon.github.io/capsense/capsense_api_reference_manual/html/index.html) |
 
 </details>
+
 
 
 
