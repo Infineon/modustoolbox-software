@@ -6,10 +6,10 @@ To get started, download and install the [ModusToolbox™ Setup program](https:/
 
 The following shows the resources available in the ModusToolbox™ ecosystem. These resources are grouped in the following top-level categories:
 
-- [Training material](#training-material)
-- [Board support packages](#board-support-packages)
-- [Libraries](#libraries)
-- [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) (link to separate page)
+- [ModusToolbox™ software](#modustoolbox-software)
+  - [Training material](#training-material)
+  - [Board support packages](#board-support-packages)
+  - [Libraries](#libraries)
 
 ## Training material
 
@@ -204,13 +204,13 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | [ml-middleware](https://github.com/Infineon/ml-middleware) | Helper functions to simplify integration of ML models. | [API reference](https://infineon.github.io/ml-middleware/html/index.html) |
 | [ml-tflite-micro](https://github.com/Infineon/ml-tflite-micro) | A pre-configured TensorFlow tflite-micro runtime library for the Infineon PSOC6™ platform. | [README](https://github.com/Infineon/ml-tflite-micro#readme) |
 
-### Code examples
-* [DEEPCRAFT Deploy Model Radar](https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar#readme)
-* [DEEPCRAFT Deploy Ready Model](https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model#readme)
-* [DEEPCRAFT Streaming Protocol](https://github.com/Infineon/mtb-example-ml-deepcraft-streaming-protocol#readme)
-* [Dual CPU Cyberon](https://github.com/Infineon/mtb-example-psoc6-dual-cpu-cyberon-freertos#readme)
-* [Machine Learning Gesture Classification](https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification#readme)
-* [Machine Learning Neural Network Profiler](https://github.com/cypresssemiconductorco/mtb-example-ml-profiler#readme)
+See the following code examples for Machine learning:
+ * [DEEPCRAFT Deploy Model Radar](https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar#readme)
+ * [DEEPCRAFT Deploy Ready Model](https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model#readme)
+ * [DEEPCRAFT Streaming Protocol](https://github.com/Infineon/mtb-example-ml-deepcraft-streaming-protocol#readme)
+ * [Dual CPU Cyberon](https://github.com/Infineon/mtb-example-psoc6-dual-cpu-cyberon-freertos#readme)
+ * [Machine Learning Gesture Classification](https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification#readme)
+ * [Machine Learning Neural Network Profiler](https://github.com/cypresssemiconductorco/mtb-example-ml-profiler#readme)
 
 
 </details>
