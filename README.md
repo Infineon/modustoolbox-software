@@ -167,12 +167,20 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 
 </details>
 
-<details><summary><b>ModusToolbox™ for Industrial</b></summary>
+<details><summary><b>ModusToolbox™ for Motor Control</b></summary>
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
-| [motor-ctrl-lib](https://github.com/Infineon/motor-ctrl-lib) | Motor control library | [README](https://github.com/Infineon/motor-ctrl-lib/blob/main/README.md) |
+| [motor-ctrl-lib](https://github.com/Infineon/motor-ctrl-lib) | Motor control library | [API Reference](https://infineon.github.io/motor-ctrl-lib/html/group__group__mcdi__general.html) |
+
+</details>
+
+<details><summary><b>ModusToolbox™ for Power Conversion</b></summary>
+
+| Library  | Details  | Docs  |
+| -------- | -------- | ----- |
 | [mtb-pwrconv](https://github.com/Infineon/mtb-pwrconv) | Power conversion middleware | [API reference](https://infineon.github.io/mtb-pwrconv/html/index.html) |
+| [mtb-pfc-lib](https://github.com/Infineon/mtb-pwrlib-pfc) | Provides a universal PFC controller to create various PFC power conversion applications. | [Firmware Reference Manual (pdf)](https://github.com/Infineon/mtb-pwrlib-pfc/blob/master/docs/FirmwareReferenceManual.pdf) |
 
 </details>
 
