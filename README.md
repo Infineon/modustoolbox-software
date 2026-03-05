@@ -179,7 +179,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
-| [mtb-pwrconv](https://github.com/Infineon/mtb-pwrconv) | Power conversion middleware | [API reference](https://infineon.github.io/mtb-pwrconv/html/index.html) |
+| [mtb-pwrconv](https://github.com/Infineon/mtb-pwrconv) | Buck converter middleware for PSC3M5 MCUs. | [API reference](https://infineon.github.io/mtb-pwrconv/html/index.html) |
 | [mtb-pfc-lib](https://github.com/Infineon/mtb-pwrlib-pfc) | Provides a universal PFC controller to create various PFC power conversion applications. | [Firmware Reference Manual (pdf)](https://github.com/Infineon/mtb-pwrlib-pfc/blob/master/docs/FirmwareReferenceManual.pdf) |
 
 </details>
