@@ -9,6 +9,6 @@ These links point to the documentation and resources available in the ModusToolb
   - [Training material](https://github.com/Infineon/training-modustoolbox)
   - [Tools](https://documentation.infineon.com/modustoolbox/docs/hgd1731540153489)
   - [Board support packages](./bsps.md)
-  - [Code examples](../Code-Examples-for-ModusToolbox-Software/README.md)
+  - [Code examples](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software)
   - [Middleware libraries](./middleware.md)
 
