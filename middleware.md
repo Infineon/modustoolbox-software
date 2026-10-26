@@ -143,6 +143,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 | [mtb-pwrconv](https://github.com/Infineon/mtb-pwrconv) | Buck converter middleware for PSC3M5 MCUs. | [API reference](https://infineon.github.io/mtb-pwrconv/html/index.html) |
 | [mtb-pfc-lib](https://github.com/Infineon/mtb-pwrlib-pfc) | Provides a universal PFC controller to create various PFC power conversion applications. | [Firmware Reference Manual (pdf)](https://github.com/Infineon/mtb-pwrlib-pfc/blob/master/docs/FirmwareReferenceManual.pdf) |
 | [mtb-mw-pctrl](https://github.com/Infineon/mtb-mw-pctrl) | Provides the optimized and reusable functional blocks for building power topology applications in ModusToolbox™. | [API reference](https://infineon.github.io/mtb-mw-pctrl/html/index.html) |
+| [mtb-pwrlib-llc](https://github.com/Infineon/mtb-pwrlib-llc) | Provides a universal LLC (DCDC converter) controller functions for various LLC power stage configurations. | [README](https://github.com/Infineon/mtb-pwrlib-llc/blob/master/README.md) |
 
 </details>
 
@@ -150,7 +151,7 @@ For information about <b>BTSDK</b>, see [https://Infineon.github.io/btsdk-docs/B
 
 | Library  | Details  | Docs  |
 | -------- | -------- | ----- |
-| [emwin](https://github.com/Infineon/emwin)       | SEGGER embedded graphic library and graphical user interface (GUI) framework designed to provide processor- and display controller-independent GUI for any application that needs a graphical display. | [Overview](https://infineon.github.io/middleware-emwin/emwin_overview/html/index.html) |
+| [emwin](https://github.com/Infineon/emwin)       | SEGGER embedded graphic library and graphical user interface (GUI) framework designed to provide processor- and display controller-independent GUI for any application that needs a graphical display. | [Overview](https://infineon.github.io/middleware-emwin/emwin_overview/html/index.html) | 
 
 </details>
 
